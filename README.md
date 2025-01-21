@@ -44,6 +44,7 @@ frame_data/
 ├─ button/
 ├─ ...
 ```
+We offer an ```extract_frames.py``` as a reference.
 
 ### Clip features
 Extract clip features and organize them as following:
