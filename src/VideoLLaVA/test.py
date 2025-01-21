@@ -7,6 +7,7 @@ from dataset.vidllava_dataset import *  # Replace with your actual dataset impor
 from tqdm import tqdm
 from options.VideoLLaVA.option import Options
 import os
+from sklearn.metrics import average_precision_score, accuracy_score, roc_auc_score
 
 parser = Options()
 
@@ -98,7 +99,7 @@ if args.task == "auc":
             auc = roc_auc_score(gts[clsname], scores[clsname])
             ap = average_precision_score(gts[clsname], scores[clsname])
             acc_list = [0 if i<0.5  else 1 for i in scores[clsname]]
-            acc = roc_auc_score(gts[clsname], acc_list)
+            acc = accuracy_score(gts[clsname], acc_list)
 
             print(clsname, "AUC: {:.3f}, AP: {:.3f}, ACC: {:.3f}".format(auc,ap,acc), file=f)
 else:
