@@ -141,7 +141,7 @@ All the results will be saved to ```results``` file and the trained models to ``
 Given that different methods have varying requirements for inputs, the following methods need some preparation in advance:
 
 ### LAVAD
-This method uses frame data as input. You need to first generate a ```annotations/``` file and a ```test.txt``` under it, which should be like:
+This method uses frame data as input. You need to firstly generate a ```annotations/``` file and a ```test.txt``` under it, which should be like:
 ```
 0000_ball_anomaly_free 0 240 0
 0001_ball_anomaly_free 0 240 0
