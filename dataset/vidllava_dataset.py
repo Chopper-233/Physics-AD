@@ -46,13 +46,13 @@ class Videodataset(Dataset):
         return len(self.videos)
     
 class Videodataset_sample(Dataset):
-    def __init__(self, data_dir, ratio=1):
+    def __init__(self, data_dir, obj, ratio=1):
         self.data_path = data_dir
-        self.objs = os.listdir(data_dir)
+        # self.objs = os.listdir(data_dir)
         self.videos = []
         # self.clstype = clstype
         self.ratio = ratio
-        
+        data_dir = os.path.join(data_dir, obj)
         for root, dirs, files in os.walk(data_dir):
             if ('test' in root.split("/")) :
                 if not dirs:
@@ -62,6 +62,10 @@ class Videodataset_sample(Dataset):
                     
                     selected_selected_videos = random.sample(selected_videos, select_count)
                     self.videos.extend(selected_selected_videos)
+
+        # for cate in self.objs:
+        #     if cate == obj:
+
         
     def __getitem__(self, idx):
         video_path = self.videos[idx]

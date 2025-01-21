@@ -11,14 +11,14 @@ import numpy as np
 # Video index files are organized in correlated sub folders.
 # N x C x T x H x W
 class VideoDataset(Dataset):
-    def __init__(self, idx_root, frame_root, obj, use_cuda=False, transform=None):
+    def __init__(self, idx_root, frame_root, use_cuda=False, transform=None):
         # dir name
         self.idx_root = idx_root
         self.frame_root = frame_root
 
         # video_name_list, subdir names
         self.video_list = [name for name in os.listdir(self.idx_root) \
-                              if os.path.isdir(os.path.join(self.idx_root, name)) and obj == name.split("_")[1]]
+                              if os.path.isdir(os.path.join(self.idx_root, name))]
         self.video_list.sort()
 
         #
@@ -88,11 +88,11 @@ class VideoDataset(Dataset):
 # All video index files are in one dir.
 # N x C x T x H x W
 class VideoDatasetOneDir(Dataset):
-    def __init__(self, idx_dir, frame_root, obj, is_testing=False, use_cuda=False, transform=None):
+    def __init__(self, idx_dir, frame_root, is_testing=False, use_cuda=False, transform=None):
         self.idx_dir = idx_dir
         self.frame_root = frame_root
         self.idx_name_list = [name for name in os.listdir(self.idx_dir) \
-                              if os.path.isfile(os.path.join(self.idx_dir, name)) and obj == name.split("_")[1]]
+                              if os.path.isfile(os.path.join(self.idx_dir, name))]
         self.idx_name_list.sort()
         self.use_cuda = use_cuda
         self.transform = transform

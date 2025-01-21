@@ -23,7 +23,7 @@ class TestOptions():
                             type=str,
                             default='Conv3DSpar')  # give the layer details later
         parser.add_argument('--Seed', type=int, default=1)
-        parser.add_argument('--Dataset', help='Dataset', type=str, default='dyna')
+        parser.add_argument('--Dataset', help='Dataset', type=str, default='phys')
         parser.add_argument('--ImgChnNum', help='image channel', type=int, default=1)
         parser.add_argument('--FrameNum', help='frame num for VIDEO clip', type=int, default=16)
         parser.add_argument('--BatchSize', help='BatchSize', type=int, default=1)
@@ -32,7 +32,7 @@ class TestOptions():
         parser.add_argument('--ShrinkThres', help='ShrinkThres', type=float, default=0.0025)
         ##
         parser.add_argument('--ModelFilePath', help='Path for a pretrained model.', type=str, default="checkpoints/MemAE/model_hinge/MemAE_Conv3DSpar__MemDim2000_EntW0.0002_ShrThres0.0025_Seed1_Non_epoch_0029_final.pt")
-        parser.add_argument('--DataRoot', help='DataPath', type=str, default='/home/dataset/gy/flow/dyna/testing/')
+        parser.add_argument('--DataRoot', help='DataPath', type=str, default='/home/dataset/gy/phys/')
         parser.add_argument('--OutRoot', help='Path for output', type=str, default='results/MemAE')
         ##
         parser.add_argument('--Suffix', help='Suffix', type=str, default='Non')

@@ -11,7 +11,7 @@ This is official repository of Physics-AD
 
 ## Overview
 
-This repository is a benchmark for Physics-AD dataset, including unsupervised methods (MemAE, MNAD, MPN, SVM),  weakly-supervised(MGFN, S3R, VadCLIP) and LLM based methods (VideoChatgpt, VideoLLaMA, VideoLLaVA, LAVAD, ZSCLIP, ZSImageBind) 
+This repository is a benchmark for Physics-AD dataset, including unsupervised methods (MemAE, MNAD, MPN, SVM),  weakly-supervised(MGFN, S3R, VadCLIP) and LLM based methods (VideoChatgpt, VideoLLaMA, VideoLLaVA, LAVAD, ZSCLIP, ZSImageBind)
 
 
 ## Data preparation
@@ -136,6 +136,8 @@ Physics-AD/
 Make sure you have installed the right environment and all of the pretrained weights(especially for the LLM methods), and you can run the algorithms from the scripts under ```scripts``` folder.
 For most of the methods there is a related option file for setting the parameters under the ```options``` folder and for them the **data path** and the **object to be detected** are two parameters you should modified according to your own setting. The script for LAVAD is a little different, where you need to modified the parameters in the script directly (data path and object are at the very beginning).
 
+**Note**: In this project we use '_' to connect the name of an object, e.g.: 'rolling_bearing' for 'rolling bearing'.
+
 All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
 
 Given that different methods have varying requirements for inputs, the following methods need some preparation in advance:
@@ -160,6 +162,10 @@ frame_data/
 │  │  │  ├─ test.txt
 ```
 After running the script you will find some new files like ```captions```, ```index``` etc. generated. They won't influence the original ```frames``` file.
+
+### MemAE
+This method uses ```frames``` as input. You should firstly generate a ```frames_idx``` folder by running the ```src/MemAE/matlab_script/matlabrunner.py```, the ```frames_idx``` folder should be at the same level as the ```frames``` folder.
+
 ### MGFN
 This method uses ```i3d``` feature. Two lists of train or test video feature paths are required. Take test list for object ```ball``` for example, it should be like this:
 ```

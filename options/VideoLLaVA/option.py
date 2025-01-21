@@ -11,7 +11,7 @@ class Options():
         parser.add_argument('--model_path', type=str, default="pretrained-weights/Video-LLaVA-7B-hf")
         parser.add_argument('--config', type=str, default="src/VideoLLaVA/ds_inference_config.json")
         parser.add_argument('--data_dir', type=str, default="/home/dataset/gy/dynamic/")
-        
+        parser.add_argument('--obj', type=str, default="rolling_bearing")
         self.initialized = True
         self.parser = parser
         return parser

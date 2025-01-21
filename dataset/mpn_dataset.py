@@ -86,7 +86,7 @@ class DataLoader(data.Dataset):
         return len(self.samples)
 
 class VideoDataLoader(data.Dataset):
-    def __init__(self, video_folder, dataset_type, transform, resize_height, resize_width, obj, time_step=4, segs=32, num_pred=1, batch_size=1):
+    def __init__(self, video_folder, dataset_type, transform, resize_height, resize_width, time_step=4, segs=32, num_pred=1, batch_size=1):
         self.dir = video_folder
         self.dataset_type = dataset_type
         self.transform = transform
@@ -96,7 +96,6 @@ class VideoDataLoader(data.Dataset):
         self._resize_width = resize_width
         self._time_step = time_step
         self._num_pred = num_pred
-        self.obj = obj
         self.setup()
         self.num_segs = segs
         self.batch_size = batch_size
@@ -114,15 +113,14 @@ class VideoDataLoader(data.Dataset):
             videos = glob.glob(os.path.join(train_folder, '*'))
             
             for video in sorted(videos):
-                if self.obj == video.split("_")[1]:
-                    video_name = video.split('/')[-1]
-                    self.video_names.append(video_name)
-                    self.videos[video_name] = {}
-                    self.videos[video_name]['path'] = video
-                    self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
-                    self.videos[video_name]['frame'].sort()
-                    # self.videos[video_name]['length'] = 60
-                    self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
+                video_name = video.split('/')[-1]
+                self.video_names.append(video_name)
+                self.videos[video_name] = {}
+                self.videos[video_name]['path'] = video
+                self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
+                self.videos[video_name]['frame'].sort()
+                # self.videos[video_name]['length'] = 60
+                self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
             
     def get_all_samples(self):
         frames = {}
@@ -130,12 +128,11 @@ class VideoDataLoader(data.Dataset):
         num = 0
         # videos = [videos[0]]
         for video in sorted(videos):
-            if self.obj == video.split("_")[1]:
-                video_name = video.split('/')[-1]
-                frames[video_name] = []
-                for i in range(len(self.videos[video_name]['frame'])-self._time_step):
-                    frames[video_name].append(self.videos[video_name]['frame'][i])
-                    num += 1
+            video_name = video.split('/')[-1]
+            frames[video_name] = []
+            for i in range(len(self.videos[video_name]['frame'])-self._time_step):
+                frames[video_name].append(self.videos[video_name]['frame'][i])
+                num += 1
                            
         return frames, num
             
@@ -161,7 +158,7 @@ class VideoDataLoader(data.Dataset):
         return len(self.video_names)
     
 class MetaDataLoader(data.Dataset):
-    def __init__(self, video_folder, transform, resize_height, resize_width, obj, time_step=4, task_size=2, segs=32, num_pred=1):
+    def __init__(self, video_folder, transform, resize_height, resize_width, time_step=4, task_size=2, segs=32, num_pred=1):
         if "UCF" in video_folder:
             self.dir = '/pcalab/tmp/UCF-Crime/UCF_Crimes/transed'
             self.pkl = '../ano_pred_cvpr2018/Data/UCF/normal_videos.pkl'
@@ -174,7 +171,6 @@ class MetaDataLoader(data.Dataset):
         self._resize_width = resize_width
         self._time_step = time_step
         self._num_pred = num_pred
-        self.obj = obj
         self.setup()
         # self.samples,_ = self.get_all_samples()
         self.task_size = task_size
@@ -206,13 +202,12 @@ class MetaDataLoader(data.Dataset):
             
             for video in sorted(videos):
                 video_name = video.split('/')[-1]
-                if self.obj in video_name.split("_"):
-                    self.video_names.append(video_name)
-                    self.videos[video_name] = {}
-                    self.videos[video_name]['path'] = video
-                    self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
-                    self.videos[video_name]['frame'].sort()
-                    self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
+                self.video_names.append(video_name)
+                self.videos[video_name] = {}
+                self.videos[video_name]['path'] = video
+                self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
+                self.videos[video_name]['frame'].sort()
+                self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
                 
             
     def get_all_samples(self):
@@ -222,11 +217,10 @@ class MetaDataLoader(data.Dataset):
         # videos = [videos[0]]
         for video in sorted(videos):
             video_name = video.split('/')[-1]
-            if self.obj in video_name.split("_"):
-                frames[video_name] = []
-                for i in range(len(self.videos[video_name]['frame'])-self._time_step):
-                    frames[video_name].append(self.videos[video_name]['frame'][i])
-                    num += 1
+            frames[video_name] = []
+            for i in range(len(self.videos[video_name]['frame'])-self._time_step):
+                frames[video_name].append(self.videos[video_name]['frame'][i])
+                num += 1
                            
         return frames, num
             
@@ -275,7 +269,7 @@ class MetaDataLoader(data.Dataset):
         return len(self.video_names)
 
 class DynaDataset(data.Dataset):
-    def __init__(self, video_folder, transform, resize_height, resize_width, obj, time_step=4, num_pred=1):
+    def __init__(self, video_folder, transform, resize_height, resize_width, time_step=4, num_pred=1):
         self.dir = video_folder
         self.transform = transform
         self.videos = OrderedDict()
@@ -283,7 +277,6 @@ class DynaDataset(data.Dataset):
         self._resize_width = resize_width
         self._time_step = time_step
         self._num_pred = num_pred
-        self.obj = obj
         self.setup()
         self.samples = self.get_all_samples()
         
@@ -292,25 +285,23 @@ class DynaDataset(data.Dataset):
     def setup(self):
         videos = glob.glob(os.path.join(self.dir, '*'))
         for video in sorted(videos):
-            if self.obj == video.split("_")[1]:
-                video_name = video.split('/')[-1]
-                self.videos[video_name] = {}
-                self.videos[video_name]['path'] = video
-                self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
-                self.videos[video_name]['frame'].sort()
-                self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
-                self.videos[video_name]['label'] = 0 if 'anomly_free' in video else 1
+            video_name = video.split('/')[-1]
+            self.videos[video_name] = {}
+            self.videos[video_name]['path'] = video
+            self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
+            self.videos[video_name]['frame'].sort()
+            self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
+            self.videos[video_name]['label'] = 0 if 'anomly_free' in video else 1
             
             
     def get_all_samples(self):
         frames = []
         videos = glob.glob(os.path.join(self.dir, '*'))
         for video in sorted(videos):
-            if self.obj == video.split("_")[1]:
-                video_name = video.split('/')[-1]
-                for i in range(len(self.videos[video_name]['frame'])-self._time_step):
-                    frames.append(self.videos[video_name]['frame'][i])
-                           
+            video_name = video.split('/')[-1]
+            for i in range(len(self.videos[video_name]['frame'])-self._time_step):
+                frames.append(self.videos[video_name]['frame'][i])
+                        
         return frames               
             
         

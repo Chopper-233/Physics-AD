@@ -76,7 +76,7 @@ class DataLoader(data.Dataset):
         return len(self.samples)
 
 class DynaDataset(data.Dataset):
-    def __init__(self, video_folder, transform, resize_height, resize_width, obj, time_step=4, num_pred=1):
+    def __init__(self, video_folder, transform, resize_height, resize_width, time_step=4, num_pred=1):
         self.dir = video_folder
         self.transform = transform
         self.videos = OrderedDict()
@@ -84,7 +84,6 @@ class DynaDataset(data.Dataset):
         self._resize_width = resize_width
         self._time_step = time_step
         self._num_pred = num_pred
-        self.obj = obj
         self.setup()
         self.samples = self.get_all_samples()
         
@@ -93,25 +92,21 @@ class DynaDataset(data.Dataset):
     def setup(self):
         videos = glob.glob(os.path.join(self.dir, '*'))
         for video in sorted(videos):
-            #if self.obj in video:
-            if self.obj == video.split("_")[1]:
-                video_name = video.split('/')[-1]
-                self.videos[video_name] = {}
-                self.videos[video_name]['path'] = video
-                self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
-                self.videos[video_name]['frame'].sort()
-                self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
+            video_name = video.split('/')[-1]
+            self.videos[video_name] = {}
+            self.videos[video_name]['path'] = video
+            self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.png'))
+            self.videos[video_name]['frame'].sort()
+            self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
             
             
     def get_all_samples(self):
         frames = []
         videos = glob.glob(os.path.join(self.dir, '*'))
         for video in sorted(videos):
-            #if self.obj in video:
-            if self.obj == video.split("_")[1]:
-                video_name = video.split('/')[-1]
-                for i in range(len(self.videos[video_name]['frame'])-self._time_step):
-                    frames.append(self.videos[video_name]['frame'][i])
+            video_name = video.split('/')[-1]
+            for i in range(len(self.videos[video_name]['frame'])-self._time_step):
+                frames.append(self.videos[video_name]['frame'][i])
                            
         return frames               
             
