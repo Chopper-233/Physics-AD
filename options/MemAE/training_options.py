@@ -34,7 +34,7 @@ class TrainOptions():
         parser.add_argument('--TBImgLogInterval', help='text log ite interval', type=int, default=200)
         parser.add_argument('--SaveCheckInterval', help='checkpoint saving epoch interval', type=int, default=1)
         ##
-        parser.add_argument('--DataRoot', help='DataPath', type=str, default='/home/dataset/gy/phys/')
+        parser.add_argument('--DataRoot', help='DataPath', type=str, default='/home/dataset/gy/flow/dyna/')
         parser.add_argument('--ModelRoot', help='Path for saving model', type=str, default='checkpoints/MemAE/')
         ##
         parser.add_argument('--Suffix', help='Suffix', type=str, default='Non')
