@@ -31,9 +31,9 @@ img_crop_size = 0
 model_setting = utils.get_model_setting(opt)
 
 ## data path
-data_root = opt.DataRoot
-data_frame_dir = data_root + 'frames/'
-data_idx_dir = data_root + 'frames_idx/'
+data_root = os.path.join(opt.DataRoot, obj, 'test')
+tr_data_frame_dir = os.path.join(data_root, 'frames')
+tr_data_idx_dir = os.path.join(data_root, 'frames_idx')
 
 ############ model path
 model_path = opt.ModelFilePath

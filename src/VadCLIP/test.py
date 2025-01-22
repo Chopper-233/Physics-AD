@@ -10,8 +10,9 @@ from dataset.vadclip_dataset import *
 from utils.vadclip_utils import get_batch_mask, get_prompt_text
 # from utils.dyna_detectionMAP import getDetectionMAP as dmAP
 from utils.vadclip_vid_level_pred import getvidpred
-from options.VadCLIP import option
+import options.VadCLIP.option as option
 from tqdm import tqdm
+
 
 def test(model, testdataloader, maxlen, prompt_text, device, gt=None, gtsegments=None, gtlabels=None):
     

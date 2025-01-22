@@ -27,11 +27,11 @@ from sklearn.metrics import roc_auc_score
 from utils.mpn_utils import *
 import random
 from tqdm import tqdm
-from options.MPN.training_option import TrainOptions
+from options.MPN.option import TrainOptions
 import warnings
 warnings.filterwarnings("ignore") 
 
-parser = TrainOptions()
+parser = TrainOptions().initialize()
 args = parser.parse_args()
 
 torch.manual_seed(2020)
@@ -47,12 +47,12 @@ else:
 
 torch.backends.cudnn.enabled = True # make sure to use cudnn for computational performance
 
-train_folder = args.dataset_path+args.dataset_type+"/training/frames"
+train_folder = os.path.join(args.dataset_path, obj, "train", "frames")
 
 # Loading dataset
 train_dataset = VideoDataLoader(train_folder, args.dataset_type, transforms.Compose([
              transforms.ToTensor(),           
-             ]), resize_height=args.h, resize_width=args.w, obj = obj, time_step=args.t_length-1, segs=args.segs, batch_size=args.batch_size)
+             ]), resize_height=args.h, resize_width=args.w, time_step=args.t_length-1, segs=args.segs, batch_size=args.batch_size)
 
 
 train_size = len(train_dataset)

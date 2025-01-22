@@ -22,7 +22,6 @@ logger = build_logger("gradio_web_server", "src/VideoChatgpt/log/gradio_web_serv
 
 headers = {"User-Agent": "Video-ChatGPT"}
 
-# 定义通用问题和类别特定问题
 COMMON_QUESTIONS = [
     "What is the object in the video?",
     "What is the normal function of the object in the video in real life?",
@@ -174,7 +173,7 @@ def initialize_chat(args):
 
 if __name__ == "__main__":
     # 解析参数并初始化 chat 对象
-    parser = Options()
+    parser = Options().initialize()
     args = parser.parse_args()
     chat = initialize_chat(args)
 

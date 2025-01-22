@@ -5,7 +5,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score, accuracy_sco
 from options.SVM.option import Options
 
 
-parser = Options()
+parser = Options().initialize()
 args = parser.parse_args()
 
 feat_path = args.feat_path

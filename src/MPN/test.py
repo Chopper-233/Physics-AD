@@ -28,14 +28,14 @@ from utils.mpn_utils import *
 import random
 import glob
 from tqdm import tqdm
-from options.MPN.training_option import TestOptions
+from options.MPN.option import TestOptions
 import pdb
 import warnings
 import time
 from sklearn.metrics import auc, roc_curve, precision_recall_curve, roc_auc_score, average_precision_score, accuracy_score
 warnings.filterwarnings("ignore") 
 
-parser = TestOptions
+parser = TestOptions().initialize()
 args = parser.parse_args()
 
 torch.manual_seed(2020)
@@ -51,17 +51,17 @@ torch.manual_seed(2020)
 #     os.environ["CUDA_VISIBLE_DEVICES"]= gpus[:-1]
 os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu
 
-
+obj=args.obj
 torch.backends.cudnn.enabled = True # make sure to use cudnn for computational performance
 
-test_folder = args.dataset_path+args.dataset_type+"/testing/frames"
+test_folder = os.path.join(args.dataset_path, obj, "test", "frames")
 
-obj=args.obj
+
 model_dir = os.path.join(args.model_dir,obj)
 # Loading dataset
 test_dataset = DynaDataset(test_folder, transforms.Compose([
              transforms.ToTensor(),            
-             ]), resize_height=args.h, resize_width=args.w, obj = obj, time_step=args.t_length-1)
+             ]), resize_height=args.h, resize_width=args.w, time_step=args.t_length-1)
 
 test_size = len(test_dataset)
 
@@ -129,7 +129,7 @@ ckpt = snapshot_path
 ckpt_name = ckpt.split('_')[-1]
 # ckpt_id = int(ckpt.split('/')[-1].split('_')[-1][:-4])
 # Loading the trained model
-model = torch.load(ckpt+"/model_20.pth")
+model = torch.load(os.path.join(ckpt, args.model_choice))
 if type(model) is dict:
     model = model['state_dict']
 model.cuda()

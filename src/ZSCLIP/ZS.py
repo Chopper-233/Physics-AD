@@ -8,7 +8,7 @@ from tqdm import tqdm
 from options.ZSCLIP.option import Options
 
 
-parser = Options()
+parser = Options().initialize()
 args = parser.parse_args()
 obj = args.obj
 train_feature = args.train_feat_path

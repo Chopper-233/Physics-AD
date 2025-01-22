@@ -9,21 +9,21 @@ from options.VideoLLaVA.option import Options
 import os
 from sklearn.metrics import average_precision_score, accuracy_score, roc_auc_score
 
-parser = Options()
+parser = Options().initialize()
 
 args = parser.parse_args()
 
 local_rank = int(os.getenv("LOCAL_RANK", args.local_rank))
 torch.cuda.set_device(local_rank)
 # os.environ['CUDA_VISIBLE_DEVICES']='6,7'
-
+obj = args.obj
 # Load the pre-trained model and processor
 model_path = args.model_path
 model = VideoLlavaForConditionalGeneration.from_pretrained(model_path)
 processor = VideoLlavaProcessor.from_pretrained(model_path)
 
 # Initialize the dataset and dataloader
-video_dataset = Videodataset_sample(data_dir=args.data_dir)
+video_dataset = Videodataset_sample(data_dir=args.data_dir, obj=obj)
 dataloader = DataLoader(video_dataset, batch_size=1, shuffle=False, num_workers=2)
 
 # DeepSpeed inference initialization

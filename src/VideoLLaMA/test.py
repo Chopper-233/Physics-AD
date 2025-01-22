@@ -84,7 +84,7 @@ def setup_seeds(config):
 # ========================================
 
 print('Initializing Chat')
-parser = Options()
+parser = Options().initialize()
 args = parser.parse_args()
 
 cfg = Config(args)

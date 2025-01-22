@@ -8,8 +8,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--obj',type=str,default='hinge')
 args=parser.parse_args()
 
-train_pth="/home/dataset/gy/clipfeature/TrainClipFeatrues"
-test_pth="/home/dataset/gy/clipfeature/TestClipFeatrues"
+train_pth="/home/dataset/gy/vadclipfeature/DynaTrainClipFeatrues"
+test_pth="/home/dataset/gy/vadclipfeature/DynaTestClipFeatrues"
 
 train_list = []
 test_list = []
@@ -45,3 +45,27 @@ with open('src/VadCLIP/list/test_list.csv','w') as test_file:
     writer = csv.writer(test_file)
     writer.writerows(test_list)
     print(f"changed to {obj}")
+
+
+# csv_file = "/home/lc/Desktop/wza/gy/dyna/bench/VadCLIP-main/list/xd_CLIP_rgbtest.csv"
+# count=0
+# abn_count=0
+# with open(csv_file, 'r', encoding='utf-8') as csvfile:
+#     csvreader = csv.reader(csvfile)
+    
+#     # 跳过表头（如果有表头）
+#     next(csvreader)
+
+#     # 逐行读取CSV文件
+#     for row in csvreader:
+#         count+=1
+#         # 将每行转换为字符串进行搜索
+#         abntype = row[1]
+#         if 'B' in abntype or 'G' in abntype:
+#            abn_count+=1
+
+# print(count,abn_count,abn_count/count)
+# data = np.load("/home/lc/Desktop/wza/gy/dyna/bench/VadCLIP-main/list/gt_label.npy",allow_pickle=True)
+# data = np.load("/home/lc/Desktop/wza/gy/dyna/bench/VadCLIP-main/list/gt_segment.npy",allow_pickle=True)
+# datalist = os.listdir("/home/lc/Desktop/wza/gy/dyna/bench/VadCLIP-main/data/DynaTestClipFeatrues")
+# print(len(datalist))

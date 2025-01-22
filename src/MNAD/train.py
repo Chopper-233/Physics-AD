@@ -24,9 +24,9 @@ from sklearn.metrics import roc_auc_score
 from utils.mnad_utils import *
 import random
 from tqdm import tqdm
-from options.MNAD.training_option import TrainOptions
+from options.MNAD.option import TrainOptions
 
-parser = TrainOptions()
+parser = TrainOptions().initialize()
 args = parser.parse_args()
 obj = args.obj
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
@@ -41,13 +41,13 @@ else:
 
 torch.backends.cudnn.enabled = True # make sure to use cudnn for computational performance
 
-train_folder = args.dataset_path+"/"+args.dataset_type+"/training/frames"
-test_folder = args.dataset_path+"/"+args.dataset_type+"/testing/frames"
+train_folder = os.path.join(args.dataset_path, obj, "train", "frames")
+test_folder = os.path.join(args.dataset_path, obj, "test", "frames")
 
 # Loading dataset
 train_dataset = DynaDataset(train_folder, transforms.Compose([
              transforms.ToTensor(),          
-             ]), resize_height=args.h, resize_width=args.w, obj=obj, time_step=args.t_length-1)
+             ]), resize_height=args.h, resize_width=args.w, time_step=args.t_length-1)
 
 # test_dataset = DynaDataset(test_folder, transforms.Compose([
 #              transforms.ToTensor(),            

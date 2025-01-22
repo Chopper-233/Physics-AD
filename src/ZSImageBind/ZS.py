@@ -8,7 +8,7 @@ from sklearn.metrics import auc, roc_curve, precision_recall_curve, roc_auc_scor
 import numpy as np
 from options.ZSImageBind.option import Options
 
-parser = Options()
+parser = Options().initialize()
 args = parser.parse_args()
 
 obj = args.obj

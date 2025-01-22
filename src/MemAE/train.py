@@ -45,9 +45,9 @@ img_crop_size = 0
 print('bs=%d, lr=%f, entrloss=%f, shr=%f, memdim=%d' % (batch_size_in, learning_rate, entropy_loss_weight, sparse_shrink_thres, mem_dim_in))
 ############
 ## data path
-data_root = opt.DataRoot + '/'
-tr_data_frame_dir = data_root + 'frames/'
-tr_data_idx_dir = data_root + 'frames_idx/'
+data_root = os.path.join(opt.DataRoot, obj, 'train')
+tr_data_frame_dir = os.path.join(data_root, 'frames')
+tr_data_idx_dir = os.path.join(data_root, 'frames_idx')
 
 ############ model saving dir path
 saving_root = opt.ModelRoot
