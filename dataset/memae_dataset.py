@@ -47,7 +47,7 @@ class VideoDataset(Dataset):
         v_name = idx_data['v_name'][0]  # video name
         frame_idx = idx_data['idx'][0, :]  # frame index list for a video clip
 
-        v_dir = self.frame_root + v_name
+        v_dir = os.path.join(self.frame_root, v_name)
 
         tmp_frame = io.imread(os.path.join(v_dir, ('frame_%04d' % frame_idx[0]) + '.png'))
         # tmp_frame = (tmp_frame[:,:,0]+tmp_frame[:,:,1]+tmp_frame[:,:,2])/3
