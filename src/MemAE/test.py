@@ -14,9 +14,8 @@ from tqdm import tqdm
 ###
 opt_parser = TestOptions()
 opt = opt_parser.parse(is_print=True)
-use_cuda = opt.UseCUDA
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-device = torch.device("cuda" if use_cuda else "cpu")
+os.environ["CUDA_VISIBLE_DEVICES"] = opt.gpu
+device = torch.device("cuda")
 obj=opt.obj
 ###
 batch_size_in = opt.BatchSize #1
@@ -32,8 +31,8 @@ model_setting = utils.get_model_setting(opt)
 
 ## data path
 data_root = os.path.join(opt.DataRoot, obj, 'test')
-tr_data_frame_dir = os.path.join(data_root, 'frames')
-tr_data_idx_dir = os.path.join(data_root, 'frames_idx')
+data_frame_dir = os.path.join(data_root, 'frames')
+data_idx_dir = os.path.join(data_root, 'frames_idx')
 
 ############ model path
 model_path = opt.ModelFilePath
@@ -73,7 +72,7 @@ frame_trans = transforms.Compose([
 unorm_trans = utils.UnNormalize(mean=norm_mean, std=norm_std)
 
 # ##
-video_list = utils.get_subdir_list(data_idx_dir, obj=obj)
+video_list = utils.get_subdir_list(data_idx_dir)
 video_num = len(video_list)
 
 ##
@@ -87,7 +86,7 @@ with torch.no_grad():
                          if os.path.isfile(os.path.join(video_idx_path, name)) and obj == name.split("_")[1]]
         idx_name_list.sort()
         # load data (frame clips) for single video
-        video_dataset = data.VideoDatasetOneDir(video_idx_path, video_frame_path, obj=obj, transform=frame_trans)
+        video_dataset = data.VideoDatasetOneDir(video_idx_path, video_frame_path, transform=frame_trans)
         video_data_loader = DataLoader(video_dataset,
                                        batch_size=batch_size_in,
                                        num_workers=16,
