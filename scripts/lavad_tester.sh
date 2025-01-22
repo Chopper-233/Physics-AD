@@ -1,9 +1,9 @@
 #!/bin/bash
 # 00
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-dataset_parent_dir="/home/lc/Desktop/wza/gy/dyna/lavad-main/dataset"
+dataset_parent_dir="/home/lc/Desktop/wza/gy/phys"
 obj="ball"
-dataset_dir="${dataset_parent_dir}/${obj}"
+dataset_dir="${dataset_parent_dir}/${obj}/test"
 # # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 echo "ensure you have extracted frames first"
