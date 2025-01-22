@@ -32,9 +32,9 @@ def tensor2numpy(tensor_in):
     nparray_out = (tensor_in.data).cpu().numpy()
     return nparray_out
 
-def get_subdir_list(path, obj, is_sort=True):
+def get_subdir_list(path, is_sort=True):
     subdir_list = [name for name in os.listdir(path) \
-                  if os.path.isdir(os.path.join(path, name)) and obj == name.split("_")[1]]
+                  if os.path.isdir(os.path.join(path, name))]
     if(is_sort):
         subdir_list.sort()
     return subdir_list
