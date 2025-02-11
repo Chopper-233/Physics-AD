@@ -7,6 +7,7 @@ This is official repository of Physics-AD
 - [Overview](#overview)
 - [Installation](#installation)
 - [How to run](#how-to-run)
+- [Links to methods](#links)
 - [License](#license)
 
 ## Overview
@@ -44,7 +45,6 @@ frame_data/
 ├─ button/
 ├─ ...
 ```
-We offer an ```extract_frames.py``` as a reference.
 
 ### Clip features
 Extract clip features and organize them as following:
@@ -184,6 +184,22 @@ This method uses ```clip``` feature. This method also need two csvs like ```MGFN
 
 ### S3R
 This method uses ```i3d``` feature. The preparation for this method is relatively complex. You can find the preparation step above in [Data preparation](#data-preparation), i3d feature part.
+
+# Links to methods
+
+[MemAE](https://github.com/donggong1/memae-anomaly-detection)\
+[MNAD](https://github.com/cvlab-yonsei/MNAD)\
+[MPN](https://github.com/ktr-hubrt/MPN)\
+[MGFN](https://github.com/carolchenyx/MGFN.)\
+[S3R](https://github.com/louisYen/S3R)\
+[VadCLIP](https://github.com/nwpu-zxr/VadCLIP)\
+[ZSCLIP](https://github.com/openai/CLIP)\
+[ZSImageBind](https://github.com/facebookresearch/ImageBind)\
+[VideoChatgpt](https://github.com/OpenGVLab/Ask-Anything)\
+[VideoLLaMA](https://github.com/DAMO-NLP-SG/VideoLLaMA2)\
+[VideoLLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)\
+[LAVAD](https://github.com/lucazanella/lavad)
+
 
 # License
 ```
