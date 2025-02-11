@@ -1,18 +1,18 @@
-# Physics-AD
+# Phys-AD
 
-This is official repository of Physics-AD
+This is official repository of Phys-AD
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Installation](#installation)
 - [How to run](#how-to-run)
-- [Links to methods](#links)
+- [Links to methods](#links-to-methods)
 - [License](#license)
 
 ## Overview
 
-This repository is a benchmark for Physics-AD dataset, including unsupervised methods (MemAE, MNAD, MPN, SVM),  weakly-supervised(MGFN, S3R, VadCLIP) and LLM based methods (VideoChatgpt, VideoLLaMA, VideoLLaVA, LAVAD, ZSCLIP, ZSImageBind)
+This repository is a benchmark for Phys-AD dataset, including unsupervised methods (MemAE, MNAD, MPN, SVM),  weakly-supervised(MGFN, S3R, VadCLIP) and LLM based methods (VideoChatgpt, VideoLLaMA, VideoLLaVA, LAVAD, ZSCLIP, ZSImageBind)
 
 
 ## Data preparation
@@ -121,7 +121,7 @@ pip install -r requirements_0.txt
 
 The pre-trained models can be download from [here](https://pan.baidu.com/s/1Oo_SWM0H7AV4Ep7SLKBHPg) (code=6p2s) and should be organized as follows:
 ```
-Physics-AD/
+Phys-AD/
 │
 ├── pretrained-weights/
 │   ├── huggingface/
