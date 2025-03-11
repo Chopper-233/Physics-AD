@@ -22,9 +22,9 @@ For all algorithms, in addition to the original data, we also need to prepare th
 - clip features
 - i3d features
  
-For details and pre-trained weights downloading, please refer to [readme](./dataset/Readme.md).
+For details and pre-trained weights downloading, please refer to [here](./dataset/Readme.md).
 
-For some methods, some extra pre-process should be applied, please refer to [readme](./src/Readme.md)
+For some methods, some extra pre-process should be applied, please refer to [here](./src/Readme.md).
 
 ## Installation
 
