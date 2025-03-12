@@ -1,7 +1,8 @@
 # Phys-AD
 
 This is official repository of Phys-AD
-
+# CVPR 2025
+[Website]() | [Arxiv]() | [Data]()
 ## Table of Contents
 
 - [Overview](#overview)
