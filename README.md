@@ -5,19 +5,19 @@
 
 <div align="center" margin-bottom="6em">
     <span class="author-block">
-        <a href="" target="_blank">Wenqiao Li✶</a><sup>1,2</sup>,</span>
+        <a href="" target="_blank">Wenqiao Li✶</a><sup>1</sup>,</span>
     <span class="author-block">
-        <a href="" target="_blank">Yao Gu✶</a><sup>2</sup>,</span>
+        <a href="" target="_blank">Yao Gu✶</a><sup>1</sup>,</span>
     <span class="author-block">
-        <a href="" target="_blank">Xintao Chen✶</a><sup>2,3</sup>,</span>
+        <a href="" target="_blank">Xintao Chen✶</a><sup>1</sup>,</span>
     <span class="author-block">
-        <a href="https://scholar.google.com/citations?hl=en&user=3Ifn2DoAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Xiaohao Xu</a><sup>1,2</sup>,</span>
+        <a href="https://scholar.google.com/citations?hl=en&user=3Ifn2DoAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Xiaohao Xu</a><sup>2</sup>,</span>
     <span class="author-block">
-        <a href="" target="_blank">Ming Hu</a><sup>1,2,3</sup>,</span>
+        <a href="" target="_blank">Ming Hu</a><sup>3</sup>,</span>
     <span class="author-block">
         <a href="https://robotics.umich.edu/people/faculty/xiaonan-sean-huang/" target="_blank">Xiaonan Huang</a><sup>2</sup></span>
      <span class="author-block">
-        <a href="" target="_blank">Yingna Wu</a><sup>2</sup></span>
+        <a href="" target="_blank">Yingna Wu</a><sup>1</sup></span>
     <br>
     <p style="font-size: 0.9em; padding: 0.5em 0;">✶ indicates equal contribution</p>
     <span class="author-block">
