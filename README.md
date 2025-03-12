@@ -1,8 +1,34 @@
-# Phys-AD
+<div align="center">
 
-This is official repository of Phys-AD
+# Towards Visual Discrimination and Reasoning of Real-World Physical Dynamics: Physics-Grounded Anomaly Detection
 # CVPR 2025
+
+<div align="center" margin-bottom="6em">
+    <span class="author-block">
+        <a href="" target="_blank">Wenqiao Li✶</a><sup>1,2</sup>,</span>
+    <span class="author-block">
+        <a href="" target="_blank">Yao Gu✶</a><sup>2</sup>,</span>
+    <span class="author-block">
+        <a href="" target="_blank">Xintao Chen✶</a><sup>2,3</sup>,</span>
+    <span class="author-block">
+        <a href="https://scholar.google.com/citations?hl=en&user=3Ifn2DoAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Xiaohao Xu</a><sup>1,2</sup>,</span>
+    <span class="author-block">
+        <a href="" target="_blank">Ming Hu</a><sup>1,2,3</sup>,</span>
+    <span class="author-block">
+        <a href="https://robotics.umich.edu/people/faculty/xiaonan-sean-huang/" target="_blank">Xiaonan Huang</a><sup>2</sup></span>
+     <span class="author-block">
+        <a href="" target="_blank">Yingna Wu</a><sup>2</sup></span>
+    <br>
+    <p style="font-size: 0.9em; padding: 0.5em 0;">✶ indicates equal contribution</p>
+    <span class="author-block">
+        <sup>1</sup>ShanghaiTech University &nbsp&nbsp 
+        <sup>2</sup>University of Michigan, Annor bor &nbsp&nbsp 
+        <sup>3</sup>Monash University
+    </span>
+
 [Website]() | [Arxiv]() | [Data]()
+</div>
+</div>
 ## Table of Contents
 
 - [Overview](#overview)
