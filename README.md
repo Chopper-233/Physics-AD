@@ -112,6 +112,18 @@ All the results will be saved to ```results``` file and the trained models to ``
 [LAVAD](https://github.com/lucazanella/lavad)
 
 
+# Citation
+Please cite the following paper if this dataset helps your project:
+```bibtex
+@InProceedings{Li_2024_CVPR,
+    author    = {Li, Wenqiao and Xu, Xiaohao and Gu, Yao and Zheng, Bozhong and Gao, Shenghua and Wu, Yingna},
+    title     = {Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22207-22216}
+}
+```
 # License
 ```
 MIT License
