@@ -38,6 +38,7 @@
 - [Installation](#installation)
 - [How to run](#how-to-run)
 - [Links to methods](#links-to-methods)
+- [Citation](#citation)
 - [License](#license)
 
 ## Overview
@@ -113,7 +114,7 @@ All the results will be saved to ```results``` file and the trained models to ``
 
 
 # Citation
-Please cite the following paper if this dataset helps your project:
+Please cite the following paper if this work helps your project:
 ```bibtex
 @InProceedings{Li_2024_CVPR,
     author    = {Li, Wenqiao and Xu, Xiaohao and Gu, Yao and Zheng, Bozhong and Gao, Shenghua and Wu, Yingna},
