@@ -34,6 +34,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Preparation](#Preparation)
 - [Installation](#installation)
 - [How to run](#how-to-run)
 - [Links to methods](#links-to-methods)
@@ -44,7 +45,7 @@
 This repository is a benchmark for Phys-AD dataset, including unsupervised methods (MemAE, MNAD, MPN, SVM),  weakly-supervised(MGFN, S3R, VadCLIP) and LLM based methods (VideoChatgpt, VideoLLaMA, VideoLLaVA, LAVAD, ZSCLIP, ZSImageBind)
 
 
-## Data preparation
+## Preparation
 
 For all algorithms, in addition to the original data, we also need to prepare the following forms of data:
 - frames
