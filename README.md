@@ -116,13 +116,11 @@ All the results will be saved to ```results``` file and the trained models to ``
 # Citation
 Please cite the following paper if this work helps your project:
 ```bibtex
-@InProceedings{Li_2024_CVPR,
-    author    = {Li, Wenqiao and Xu, Xiaohao and Gu, Yao and Zheng, Bozhong and Gao, Shenghua and Wu, Yingna},
-    title     = {Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {22207-22216}
+@article{li2025towards,
+  title={Towards Visual Discrimination and Reasoning of Real-World Physical Dynamics: Physics-Grounded Anomaly Detection},
+  author={Li, Wenqiao and Gu, Yao and Chen, Xintao and Xu, Xiaohao and Hu, Ming and Huang, Xiaonan and Wu, Yingna},
+  journal={arXiv preprint arXiv:2503.03562},
+  year={2025}
 }
 ```
 # License
