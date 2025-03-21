@@ -64,7 +64,6 @@ For some methods, some extra pre-process should be applied, please refer to [her
 The environmental differences for the algorithm are quite significant. We have provided three environments for the algorithm, corresponding to the following algorithms:
 
 
-
 #### For most methods included:
 ```bash
 # Install Python dependencies
@@ -85,20 +84,36 @@ pip install -r requirements_llava.txt
 
 
 ## How to run
-Make sure you have installed the right environment and all of the pretrained weights(especially for the LLM methods), and you can run the algorithms from the scripts under ```scripts``` folder.
-For most of the methods there is a related option file for setting the parameters under the ```options``` folder and for them the **data path** and the **object to be detected** are two parameters you should modified according to your own setting. The script for LAVAD is a little different, where you need to modified the parameters in the script directly (data path and object are at the very beginning).
+Make sure you have installed the right environment and all of the pretrained weights(especially for the LLM methods), and you can run the algorithms from the scripts under ```scripts``` folder.  
+For most of the methods there are related option files to set the parameters under the ```options``` folder. Among the params the **data path** and the **object to be detected** are two parameters you should modified according to your own setting. 
+
+**Note**: The script for **LAVAD** is a little different, where you need to modified the parameters in the script directly (data path and object are at the very beginning).
 
 ```bash
+cd scripts
 sh script_of_method_you_want_to_run.sh
 ```
-
-**Note**: In this project we use '_' to connect the name of an object, e.g.: 'rolling_bearing' for 'rolling bearing'.
-
-All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
-
+**For example**, if you want to train and test **MemAE** method:  
+1. Switch to the ```scripts``` folder.  
+```bash
+cd scripts
+```
+2. Find the scripts of the method you want to run. You may want to add a flag ```--obj``` in the script to specify the object you want to train or test.  
+3. For training:
+```bash
+sh memae_trainer.sh
+```
+4. For testing:
+```bash
+sh memae_tester.sh
+```
+**Note**: 
+1. In this project we use '_' to connect the name of an object, e.g.: 'rolling_bearing' for 'rolling bearing'.
+2. Video understanding methods have only tester and no need to train. 
+2. All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
+3. Some test scripts (like memae_tester.sh) have 2 python files to run, you only need to add the ```---obj``` flag to test file and no need for the evaluator.
 
 # Links to methods
-
 [MemAE](https://github.com/donggong1/memae-anomaly-detection)\
 [MNAD](https://github.com/cvlab-yonsei/MNAD)\
 [MPN](https://github.com/ktr-hubrt/MPN)\
