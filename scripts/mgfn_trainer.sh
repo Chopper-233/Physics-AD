@@ -1,2 +1,2 @@
 cd ..
-python -m src.MGFN.main
+python -m src.MGFN.main --obj "hinge"

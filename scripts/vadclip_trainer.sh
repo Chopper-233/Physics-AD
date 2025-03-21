@@ -1,3 +1,3 @@
 cd ..
-python -m src.VadCLIP.process
-python -m src.VadCLIP.train
+python -m src.VadCLIP.process --obj "hinge"
+python -m src.VadCLIP.train --obj "hinge"

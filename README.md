@@ -98,7 +98,7 @@ sh script_of_method_you_want_to_run.sh
 ```bash
 cd scripts
 ```
-2. Find the scripts of the method you want to run. You may want to add a flag ```--obj``` in the script to specify the object you want to train or test.  
+2. Find the scripts of the method you want to run. You may want to modify the flag ```--obj``` in the script to specify the object you want to train or test.  
 3. For training:
 ```bash
 sh memae_trainer.sh
@@ -110,8 +110,8 @@ sh memae_tester.sh
 **Note**: 
 1. In this project we use '_' to connect the name of an object, e.g.: 'rolling_bearing' for 'rolling bearing'.
 2. Video understanding methods have only tester and no need to train. 
-2. All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
-3. Some test scripts (like memae_tester.sh) have 2 python files to run, you only need to add the ```---obj``` flag to test file and no need for the evaluator.
+3. All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
+
 
 # Links to methods
 [MemAE](https://github.com/donggong1/memae-anomaly-detection)\

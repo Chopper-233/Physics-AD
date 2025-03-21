@@ -1,2 +1,2 @@
 cd ..
-python -m src.MemAE.train
+python -m src.MemAE.train --obj "hinge"

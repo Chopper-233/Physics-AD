@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ..
-python -m src.MNAD.test
+python -m src.MNAD.test --obj "hinge"

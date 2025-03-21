@@ -1,2 +1,2 @@
 cd ..
-python -m src.MPN.train
+python -m src.MPN.train --obj "hinge"
