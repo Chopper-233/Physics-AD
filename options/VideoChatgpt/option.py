@@ -21,4 +21,4 @@ class Options():
         parser.add_argument("--data_dir", type=str, default="/home/dataset/gy/dynamic")
         parser.add_argument("--output_dir", type=str, default="results/VideoChatgpt/txts")
         parser.add_argument("--projection_path", type=str, required=False, default="pretrained-weights/Video-ChatGPT-7B/video_chatgpt-7B.bin")
-    return parser
+        return parser
