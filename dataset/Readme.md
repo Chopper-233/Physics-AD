@@ -69,7 +69,9 @@ S3R_data/
 │  ├─ button/
 │  ├─ ...
 ```
-**Note**: our object directory is equivalent to the dataset directory in the official document, and no ground_truth.csv is required.
+**Note**: 
+1. Our object directory is equivalent to the dataset directory in the official document, and no ground_truth.csv is required.
+2. If you are running weakly supervised method, please remember to put some anomaly samples into the training set (about 10% of the total anomaly samples in our experiments.)
 
 ### Download Pretrained-weights
 
