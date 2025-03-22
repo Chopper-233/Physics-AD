@@ -127,7 +127,7 @@ sh vadclip_trainer.sh
 sh vadclip_tester.sh
 ```
 ### Video-understanding methods
-**For example**, if you want to train and test **VideoLLaVA** method:  
+**For example**, if you want to test **VideoLLaVA** method:  
 1. Switch to the ```scripts``` folder.  
 ```bash
 cd scripts
