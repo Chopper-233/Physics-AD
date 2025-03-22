@@ -1,0 +1,1100 @@
+{
+    "ball": {
+        "description_label": {
+            "anomaly_free": [
+                "1.The video displays a ball and a robotic arm set against a black background. The ball is positioned prominently, and the robotic arm is seen pressing or pinching it. Despite this interaction, the ball remains fully inflated, showing no noticeable deformation.",
+                "2.In the video, there are two main objects: a ball and a robotic arm. The ball rests on a black backdrop, while the robotic arm interacts with it by pressing or pinching. Even under this pressure, the ball stays fully inflated and maintains its shape, with no visible signs of deformation.",
+                "3.The video captures a scene featuring a ball and a robotic arm on a black background. As the robotic arm presses or pinches the ball, the ball stays fully inflated without any visible change in its shape or any obvious deformation.",
+                "4.A robotic arm and a ball are the primary objects shown in the video, placed against a black background. The arm applies pressure by pressing or pinching the ball, but the ball remains fully inflated and retains its shape, with no apparent deformation.",
+                "5.The objects shown in the video are a ball and a robotic arm, positioned against a dark background. The robotic arm presses or pinches the ball, which, despite this action, stays fully inflated and does not exhibit any noticeable deformation."
+            ],
+            "leak": [
+                "1.In the video, a ball and a robotic arm are shown against a black background. The robotic arm applies pressure by pressing or squeezing the ball, causing it to appear deformed and deflated, with no apparent way to restore it to its original form.",
+                "2.The video displays a scene with a ball and a robotic arm set against a black backdrop. The robotic arm exerts pressure on the ball, pressing or squeezing it until the ball becomes deformed and deflated, leaving it beyond restoration to its initial shape.",
+                "3.A ball and a robotic arm are the main objects featured in the video, placed on a dark background. The robotic arm squeezes or presses the ball, which becomes visibly deformed and deflated, with no way to return it to its original shape.",
+                "4.In the video, a robotic arm interacts with a ball on a black background. The arm is seen pressing or squeezing the ball, resulting in a deformed and deflated appearance that cannot be returned to its original condition.",
+                "5.Against a black background, the video shows a ball and a robotic arm. As the robotic arm presses or squeezes the ball, it becomes visibly deformed and deflated, with no possibility of restoration to its former shape."
+            ],
+            "unfull": [
+                "1.In the video, a ball and a robotic arm are displayed against a dark background. The robotic arm applies pressure to the ball by pressing or pinching it, causing the ball to appear slightly deflated and visibly deformed. After the robotic arm releases, the ball gradually returns to its original shape.",
+                "2.The video presents a scene with a ball and a robotic arm positioned on a black background. The robotic arm interacts with the ball, pressing or pinching it so that the ball appears partially deflated and deformed. Once the robotic arm stops its action, the ball resumes its original shape.",
+                "3.A ball and a robotic arm are featured in the video, set against a black background. As the robotic arm presses or pinches the ball, it looks partially deflated and deformed. After the arm completes its operation, the ball gradually returns to its natural shape.",
+                "4.Against a black backdrop, the video shows a robotic arm interacting with a ball. The robotic arm presses or pinches the ball, leaving it visibly deformed and partially deflated. However, once the arm releases, the ball restores itself to its original shape.",
+                "5.In the video, there is a ball and a robotic arm against a dark background. The robotic arm presses or pinches the ball, which appears visibly deformed and slightly deflated as a result. After the robotic arm's action ends, the ball recovers its shape."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The ball shown in the video is functioning as expected. When pressed by the robot arm, it shows only minimal deformation, which indicates it's fully inflated and sealed properly, confirming its normal condition.",
+                "2.In the video, the ball is in a normal state. When the robot arm applies pressure, there is little visible deformation. This limited response suggests that the ball is fully inflated and airtight, affirming that it is in normal condition.",
+                "3.The video demonstrates a normal ball, as the robot arm's pressure causes very little deformation. This response is due to the ball's full inflation and lack of air leakage, verifying that it's functioning as expected.",
+                "4.As seen in the video, the ball is in normal condition; the robot arm's pressing action results in minimal deformation. This lack of significant deformation is because the ball is fully inflated and sealed, indicating it is in proper working order.",
+                "5.The ball in the video behaves normally under the robot arm's pressure, showing only slight deformation. This is because it is fully inflated and airtight, which confirms its expected condition."
+            ],
+            "leak": [
+                "1.The ball in the video shows signs of being abnormal. When the robot arm applies pressure, it noticeably deforms, likely because it isn't fully inflated. Since it leaks air, it is unable to regain its original shape, confirming that it is in an abnormal condition.",
+                "2.In the video, the ball is clearly in an abnormal state. Under the pressure of the robot arm, it deforms significantly, suggesting it may not be properly inflated. Because of air leakage, it fails to return to its initial shape, further verifying its abnormal condition.",
+                "3.Observing the video, the ball's abnormality becomes evident. When pressed by the robot arm, it visibly deforms, indicating a lack of full inflation. Due to air escaping, it cannot revert to its original shape, confirming its unusual state.",
+                "4.The ball in the video is evidently abnormal. Upon being pressed by the robot arm, it undergoes visible deformation, likely from insufficient inflation. Unable to recover its shape because of air leakage, the ball's abnormality is confirmed.",
+                "5.The video highlights the ball's abnormal condition: under pressure from the robot arm, it deforms noticeably, which suggests incomplete inflation. Its failure to return to its original shape, due to air leakage, confirms its abnormal state."
+            ],
+            "unfull": [
+                "1.The ball shown in the video appears to be in an abnormal state. When the robot arm applies pressure, it deforms considerably, likely because it is not fully inflated. Nonetheless, as there are no leaks, it can regain its original shape, which underscores its abnormal condition.",
+                "2.In the video, the ball demonstrates abnormal behavior. When pressed by the robot arm, it experiences significant deformation, suggesting that it isn't fully inflated. However, its ability to return to its original form, due to the lack of leaks, confirms that it is indeed in an unusual state.",
+                "3.Observing the video, the ball's condition seems abnormal. When the robot arm presses down, the ball deforms noticeably, indicating it may not be completely inflated. Despite this, the absence of leaks allows it to revert to its original shape, which highlights its abnormality.",
+                "4.The ball in the video exhibits signs of abnormality. When pressed by the robot arm, it deforms extensively, probably due to incomplete inflation. Yet, because it doesn't leak air, it is able to return to its initial shape, reaffirming that it is not in a typical condition.",
+                "5.The video shows an abnormal ball, as it deforms significantly under pressure from the robot arm, likely due to insufficient inflation. Nonetheless, it returns to its original shape without leaking, confirming that it is in an unusual state."
+            ]
+        }
+    },
+    "button": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a button is shown that features a color-changing light and a protective cover. A robotic arm interacts with this button by pressing it, triggering a response. This response is visually clear, as the button lights up upon being pressed and remains off otherwise, indicating its current status.",
+                "2.The video displays a button designed with a light that can change colors, accompanied by a protective cover. In the demonstration, a robotic arm is used to press the button, simulating interaction. When pressed, the button lights up, while it stays off when untouched, delivering clear visual feedback on its active state.",
+                "3.The video features a plastic button with  colors, placed on a black surface. The button contains a white light that activates when interacted with. A silver robotic arm is shown pressing the button, causing it to illuminate. In some scenes, the button is covered by a clear plastic or a red protective cover. This interaction provides clear visual feedback, with the button lighting up when active and staying unlit when inactive.",
+                "4.The scene begins with a close-up focus on a small plastic button equipped with a light, alongside a robotic arm positioned to press it. Following the press by the robotic arm, a bright light shines through the plastic, demonstrating the button's internal illumination. The video offers detailed shots of the light switch and button, capturing the light turning on several times and briefly remaining visible before fading. This sequence emphasizes the button's responsive design, with each press leading to a short-lived but vivid illumination before the scene gradually fades to black",
+                "5.The video highlights a small plastic button with a smooth, glossy surface and a round hole on one side. Its flawless, shiny appearance stands out, and it is set against a dark background, enhancing the brightness of the LED light within. This central LED light blinks in response to interaction with a silver robotic arm, which both presses and rotates the button. The lighting effect creates a strong contrast with the dark environment, drawing attention to the button's sleek, compact design as it interacts with the robotic arm."
+            ],
+            "no_light": [
+                "1.The video showcases a button equipped with a light, accompanied by a robotic arm for interaction. The button is encased in a colored shell, adding a visual element to its design. During the interaction, the robotic arm presses down on the button, applies pressure, and then releases it. Despite this sequence, the light within the button remains off throughout, indicating no activation.",
+                "2.In the video, a button with a built-in light and a colored outer shell is the focal point, with a robotic arm interacting with it. The robotic arm engages by pressing down on the button, holding briefly, and then releasing. Interestingly, the light inside the button does not illuminate at any point, suggesting that the pressing action does not trigger the light.",
+                "3.The video features a button with a colored shell and an internal light, paired with a robotic arm for interaction. The robotic arm performs a sequence of actions: pressing down, holding, and releasing the button. Throughout this process, however, the light within the button stays off, indicating a lack of response despite the physical interaction.",
+                "4.In the video, a button with an internal light is showcased, set against a black surface and enveloped by darkness, which makes the button stand out. The interaction involves a robotic arm pressing the button, with the sequence captured in slow motion.",
+                "5.he video displays a button equipped with a light inside, carefully placed on a black surface, surrounded by a dark background that enhances its visibility. A robotic arm engages with the button, pressing it in a deliberate, slow-motion sequence."
+            ],
+            "Unpress": [
+                "1.In the video, the main object is a button with an internal light, and it is paired with a robotic arm. The button features a colored outer shell, adding visual contrast. The interaction shows the robotic arm making an attempt to press down on the button, but the button remains unresponsive to the pressure, emphasizing its rigidity.",
+                "2.he video displays a button with a built-in light alongside a robotic arm designed for interaction. The button is encased in a colored shell, and the scene demonstrates the robotic arm trying to press down on the button. However, despite the arm's efforts, the button does not respond to the applied pressure, highlighting its resistance to activation.",
+                "3.In the video, a small plastic button is positioned on a black surface, resembling a component from a computer system. The robotic arm moves in to press the button, but the button can not be pressed down. This close-up captures the interaction between the button and the robotic arm, underscoring its intended role in a controlled setup.",
+                "4.The video highlights a small red button made of plastic with a smooth, rounded surface, positioned on a dark background. The robotic arm moves in to press the button, but the button can not be pressed down.The main interaction involves a robotic arm pressing the button, causing it to move in response. Close-up shots emphasize the physical engagement between the robotic arm and the button, focusing on the button's movement and visual characteristics as the arm applies pressure.",
+                "5.Featured in the video is a lighted button with a vibrant colored shell, positioned next to a robotic arm. The interaction sequence shows the robotic arm attempting to apply pressure to the button, but the button remains unaffected and does not depress. This setup draws attention to the button's unyielding structure."
+            ],
+            "Unrebound_light": [
+                "1.In the video, there is a button with an internal light, accompanied by a robotic arm for interaction. The button is encased in a colored shell, adding to its visual appeal. The robotic arm presses down on the button, but after being pressed, the button fails to bounce back, and the light remains continuously illuminated.",
+                "2.The video showcases a button equipped with a light and a robotic arm that interacts with it. The button has a colored outer shell, enhancing its design. During the interaction, the robotic arm applies pressure by pressing the button down. However, once pressed, the button does not return to its original position, and the light inside stays lit.",
+                "3.The video presents a button featuring an internal light and a robotic arm as part of the interaction setup. The button's colored shell stands out, and the robotic arm presses down firmly on it. After this press, the button fails to spring back to its initial position, and its light continues to glow steadily.",
+                "4.The video displays a small, clear plastic button with a bright internal light, possibly showing red and white tones. A robotic arm interacts with the button by pressing down on it, and after this action, the button remains stuck in the pressed position, without bouncing back. The light remains steadily illuminated, and the close-up shot highlights both the glowing light and the fixed position of the button, emphasizing its lack of response once pressed.",
+                "5.In the video, a small button made of clear plastic is highlighted, containing a bright light that may display red and white hues. The robotic arm presses down on this button, after which the button remains in a fixed, pressed position, unable to return to its original state. The light remains on, casting a steady glow, and the close-up perspective draws attention to the button's illuminated state and lack of movement following the press."
+            ],
+            "Unrebound_nolight": [
+                "1.n the video, a button with an internal light is shown alongside a robotic arm. The button is encased in a colored shell, adding a distinct visual element. The robotic arm presses down on the button as part of the interaction, but after being pressed, the button remains fixed in the pressed position, and the light does not activate.",
+                "2.The video depicts a button with a built-in light, paired with a robotic arm for interaction. The button, which features a colored outer shell, is pressed down by the robotic arm. Once pressed, the button remains in a stuck position, unable to return to its original state, and the light does not illuminate.",
+                "3.The video presents a small, colored plastic button, possibly a component of an electronic device, positioned on a black surface. A silver robotic arm engages with the button by pressing it down firmly. Afterward, the button remains held down without bouncing back, and its internal light fails to activate.",
+                "4.The video shows a small, colored plastic button, which appears to be part of an electronic device, placed on a black table. A silver robotic arm interacts with the button, pressing it down. After the button is pressed, it remains stuck in the pressed position without bouncing back, and the internal light does not turn on.",
+                "5.In the video, there is a small button with a colored plastic shell, potentially part of a larger electronic device, set on a black table. A silver robotic arm presses down on the button, but after being pressed, the button stays in the pressed position, failing to bounce back, and the internal light does not illuminate."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The button shown in the video appears to function as expected. When the robot arm presses it, the light turns on, and after the robot arm releases it, the button returns smoothly to its original position, indicating that it is in normal working condition.",
+                "2.In the video, the button operates normally. When the robot arm applies pressure, it activates the light, and once the pressure is released, the button resets to its initial position, verifying its normal functionality.",
+                "3.The button in the video demonstrates normal operation. When pressed by the robot arm, it successfully lights up, and upon release, it returns to its default position, further confirming that it's in proper working condition.",
+                "4.Observing the video, the button appears to be functioning correctly. The robot arm's press activates the light, and when the arm releases, the button returns to its original state, confirming that it is in normal condition.",
+                "5.The video shows that the button is in good working order. When the robot arm presses it, the light turns on, and as soon as the arm releases the pressure, the button springs back to its initial state, affirming its normal functionality."
+            ],
+            "no_light": [
+                "1.The button shown in the video is not functioning as expected. When the robot arm presses it, the light does not activate, which is likely due to an internal fault. Despite returning to its original state upon release, this behavior confirms that the button is in an abnormal condition.",
+                "2.In the video, the button's behavior is abnormal. When the robot arm applies pressure, the light fails to turn on, likely indicating an internal malfunction. Although it resets to its initial position after being released, this issue verifies that the button is not operating normally.",
+                "3.The button in the video demonstrates abnormal functionality. When pressed by the robot arm, it doesn't trigger the light, possibly due to a problem inside the button. While it does return to its original position after release, this confirms that it is not functioning properly.",
+                "4.Observing the video, it is clear the button is not in a normal condition. When the robot arm presses down, the light remains off, likely because of an internal defect. Though the button springs back to its default position upon release, this issue confirms its abnormal state.",
+                "5.The video shows the button functioning abnormally. Under pressure from the robot arm, it fails to light up, probably due to an internal issue. Even though it returns to its original state after being released, this problem confirms that the button is defective."
+            ],
+            "Unpress": [
+                "1.The button in the video demonstrates abnormal behavior. When the robot arm tries to press it, the button remains unresponsive, likely due to an internal problem, such as being stuck. This clearly indicates that the button is malfunctioning.",
+                "2.In the video, the button shows signs of being abnormal. When the robot arm attempts to press it, the button does not respond, possibly because of an internal fault like sticking. This confirms that the button is not functioning properly.",
+                "3.Observing the video, it is clear the button is not operating normally. When the robot arm presses it, there is no response, likely due to an internal issue, such as a jam. This confirms that the button is in a malfunctioning state.",
+                "4.The video suggests that the button is not in proper working order. When the robot arm tries to press it, the button fails to engage, possibly because of an internal fault, like being jammed. This indicates that the button is malfunctioning.",
+                "5.The button in the video seems to be defective. When the robot arm presses down, it does not respond, likely due to an internal problem, such as getting stuck. This behavior confirms that the button is not in normal working condition."
+            ],
+            "Unrebound_light": [
+                "1.The button in the video shows signs of malfunction. When the robot arm presses it, the button responds appropriately, activating the light. However, after the arm releases it, the button does not return to its original position, leaving the light continuously on. This is likely due to an internal issue, such as a broken spring, confirming its abnormal condition.",
+                "2.In the video, the button's behavior suggests it is not functioning correctly. When pressed by the robot arm, it engages as expected, and the light turns on. Yet, when released, the button fails to bounce back, keeping the light constantly on. This issue may stem from an internal defect, like a broken spring, indicating that the button is indeed abnormal.",
+                "3.Observing the video, the button appears to have a malfunction. The robot arm presses it successfully, turning on the light, but the button does not rebound after being released, causing the light to stay on. This behavior is likely due to an internal problem, such as a broken spring, which confirms the button's abnormal state.",
+                "4.The button in the video exhibits abnormal functionality. When the robot arm presses it, it responds and activates the light, but it does not return to its original state once released, leaving the light permanently on. This failure to rebound suggests an internal issue, possibly a broken spring, indicating that the button is malfunctioning.",
+                "5.The video reveals that the button is not in normal working order. When the robot arm presses down, it activates the light as expected, yet fails to return to its starting position upon release, resulting in the light remaining on. This behavior suggests an internal malfunction, such as a broken spring, confirming that the button is indeed abnormal."
+            ],
+            "Unrebound_nolight": [
+                "1.The button in the video shows signs of abnormality. When pressed by the robot arm, it can be depressed, but the light remains off, suggesting an internal issue. Furthermore, when the robot arm releases it, the button does not rebound, likely due to a problem such as a broken spring, confirming that it is indeed malfunctioning.",
+                "2.In the video, the button appears to be in an abnormal state. Although the robot arm can press it, the light fails to activate, pointing to a potential issue inside. Additionally, the button does not spring back upon release, likely due to an internal defect like a broken spring, indicating that the button is not functioning correctly.",
+                "3.Observing the video, it is clear that the button is malfunctioning. The robot arm can press it down, but the light does not turn on, which hints at an internal problem. Moreover, the button fails to return to its original position once released, possibly due to an issue such as a broken spring, confirming its abnormal condition.",
+                "4.The video demonstrates that the button is not operating normally. When the robot arm presses it, the button can be pushed down, but the light stays off, suggesting an internal malfunction. Additionally, the button does not rebound upon release, likely due to a fault such as a broken spring, affirming that it is in an abnormal state.",
+                "5.The button in the video exhibits abnormal behavior. It can be pressed by the robot arm, but the light remains unlit, indicating a possible internal defect. When the robot arm releases it, the button fails to spring back, likely because of an issue like a broken spring, confirming its malfunction."
+            ]
+        }
+    },
+    "car": {
+        "description_label": {
+            "all_wheel": [
+                "1.In the video, a small, colorful toy car is shown resting on a table with a robotic arm attached to it. The robotic arm firmly grasps the car and moves it back and forth across the surface. Despite this movement, the wheels of the car remain stationary and do not rotate, emphasizing the controlled motion of the car without typical wheel rotation.",
+                "2.The video features a brightly colored toy car positioned on a table, with a robotic arm attached. The robotic arm holds the car securely and shifts it back and forth. Interestingly, the wheels of the car do not turn during these movements, which highlights the robotic arm's control over the car's motion, separate from any wheel rotation.",
+                "3.A small, colorful toy car is displayed on a tabletop in the video, accompanied by a robotic arm attached to it. The robotic arm grips the car and moves it back and forth. The car's wheels, however, stay still and do not rotate, emphasizing the manipulation by the robotic arm without the usual rotation of the wheels.",
+                "4.In the video, a small toy car with vibrant colors is placed on a table, with a robotic arm secured to it. The robotic arm moves the car in a back-and-forth motion, yet the wheels of the car remain completely stationary. This arrangement highlights the movement controlled by the robotic arm, independent of any wheel rotation.\"",
+                "5.The video presents a small, colorful toy car situated on a table, with a robotic arm attached to it. As the robotic arm moves the car back and forth, the wheels remain locked in place, showing no rotation. This setup underscores the robotic arm's control over the car's motion without engaging the wheels."
+            ],
+            "anomaly_free": [
+                "1.The video showcases a toy car being firmly held by a robotic arm, which moves it back and forth. As the arm performs this action, the wheels of the toy car rotate seamlessly, mimicking real movement.",
+                "2.The video shows a toy car held securely by a robotic arm, which shifts it forward and backward. As the robotic arm moves the car, the wheels turn smoothly, maintaining a steady rotation.",
+                "3.The video shows a small, colorful toy car made of plastic, positioned on a black table. A silver robotic arm is placed on top of the car, holding it firmly. The robotic arm moves the car back and forth, as well as to the side, while the car's wheels turn smoothly throughout these movements.",
+                "4.In the video, a small toy car with vibrant colors is seen on a black tabletop, and a silver robotic arm is securely positioned above it. The arm grasps the car, moving it in a back-and-forth motion, with occasional shifts to the side. As the arm manipulates the car, its wheels rotate seamlessly",
+                "5.The video captures a small, colorful plastic toy car resting on a black table, with a silver robotic arm holding it from above. The robotic arm moves the car back and forth and sometimes to the side. Throughout these actions, the wheels of the car rotate smoothly, indicating a natural motion."
+            ],
+            "back_wheel": [
+                "1.The video shows a toy car being grasped by a robotic arm, which moves it back and forth across the surface. During this motion, the front wheels of the car rotate smoothly, but the back wheels stay fixed, creating a noticeable contrast in wheel movement.\"",
+                "2.A toy car is displayed in the video, firmly held by a robotic arm that moves it in a back-and-forth motion. The front wheels turn freely as the car is moved, but the back wheels do not rotate, drawing attention to the uneven wheel behavior.",
+                "3.In the video, a small, vibrant toy car is positioned on a tabletop, where it is manipulated by a robotic arm. The arm grasps the car securely and moves it forward and backward. As the car shifts, the front wheels rotate smoothly, yet the back wheels do not move.",
+                "4.A small, brightly colored toy car is featured in the video, resting on a table and controlled by a robotic arm. The robotic arm holds the car and moves it back and forth. While this motion causes the front wheels to spin freely, the back wheels remain completely stationary, drawing attention to the differing rotation.",
+                "5.In the video, a small, vibrant toy car is positioned on a tabletop, where it is manipulated by a robotic arm. The arm grasps the car securely and moves it forward and backward. As the car shifts, the front wheels rotate smoothly, yet the back wheels do not move."
+            ],
+            "front_wheel": [
+                "1.In the video, a colorful toy car is grasped by a robotic arm, which moves it back and forth. During this movement, the car's back wheels rotate as expected, but the front wheels remain stationary, creating a contrast in motion between the front and back of the car.",
+                "2.The video displays a brightly colored toy car held by a robotic arm. As the robotic arm shifts the car back and forth, the back wheels rotate smoothly, while the front wheels stay in place without moving, highlighting a difference in wheel behavior.",
+                "3.A small toy car with colorful details is featured on a tabletop in the video, with a robotic arm handling its movement. The arm grips the car and shifts it back and forth. As this movement occurs, only the back wheels rotate, while the front wheels remain stationary, drawing attention to the partial rotation effect.",
+                "4.The video shows a small, colorful toy car positioned on a table, with a robotic arm attached to it. The robotic arm firmly grasps the car and moves it back and forth across the table. During this movement, the car's back wheels rotate as expected, while the front wheels remain still, emphasizing a partial rotation effect created by the robotic arm's manipulation.",
+                "5.n the video, a small, brightly colored toy car is placed on a table and controlled by a robotic arm. The arm grips the car and moves it back and forth, causing the back wheels to turn normally. However, the front wheels do not rotate, creating an interesting partial rotation effect as the robotic arm maneuvers the car."
+            ]
+        },
+        "explanation_label": {
+            "all_wheel": [
+                "1.The toy car in the video seems to be experiencing a malfunction. When the robot arm moves it back and forth, the wheels do not roll along as expected, suggesting an internal problem, such as something being stuck. This indicates that the toy car is indeed in an abnormal condition.",
+                "2.In the video, the toy car does not appear to be functioning properly. When the robot arm moves it forward and backward, the wheels remain stationary, likely due to an internal issue like a jam. This confirms that the toy car is not in normal working order.",
+                "3.Observing the video, it's clear the toy car is malfunctioning. As the robot arm moves it back and forth, the wheels fail to turn, possibly due to an internal problem, such as being jammed. This confirms that the toy car is in an abnormal state.",
+                "4.The video demonstrates that the toy car is not functioning as it should. When the robot arm moves it in both directions, the wheels do not roll as expected, likely because of an internal fault, such as a stuck mechanism. This observation confirms that the toy car is malfunctioning.",
+                "5.The toy car in the video shows signs of an abnormal condition. When the robot arm moves it back and forth, the wheels do not rotate along with the movement, likely due to an internal issue, like being stuck. This confirms that the toy car is not working properly."
+            ],
+            "anomaly_free": [
+                "1.The toy car in the video demonstrates normal operation. As the robot arm moves it back and forth, the wheels turn smoothly in sync with the movement, indicating that the toy car is in good working order.",
+                "2.In the video, the toy car appears to be functioning as expected. When the robot arm pushes it back and forth, the wheels roll effortlessly along with the motion, confirming that the toy car is in proper condition.",
+                "3.Observing the video, the toy car seems to operate normally. The wheels rotate smoothly as the robot arm moves it back and forth, which confirms that the toy car is functioning properly.",
+                "4.The video shows that the toy car is working correctly. When the robot arm maneuvers it back and forth, the wheels roll fluidly with each movement, indicating that the toy car is in normal condition.",
+                "5.The toy car in the video operates as it should. As the robot arm moves it forward and backward, the wheels turn seamlessly, confirming that the toy car is functioning as expected."
+            ],
+            "back_wheel": [
+                "1.The toy car in the video seems to be experiencing a malfunction. When the robot arm moves it back and forth, the wheels do not roll along as expected, suggesting an internal problem, such as something being stuck. This indicates that the toy car is indeed in an abnormal condition.",
+                "2.In the video, the toy car does not appear to be functioning properly. When the robot arm moves it forward and backward, the wheels remain stationary, likely due to an internal issue like a jam. This confirms that the toy car is not in normal working order.",
+                "3.Observing the video, it's clear the toy car is malfunctioning. As the robot arm moves it back and forth, the wheels fail to turn, possibly due to an internal problem, such as being jammed. This confirms that the toy car is in an abnormal state.",
+                "4.The video demonstrates that the toy car is not functioning as it should. When the robot arm moves it in both directions, the wheels do not roll as expected, likely because of an internal fault, such as a stuck mechanism. This observation confirms that the toy car is malfunctioning.",
+                "5.The toy car in the video shows signs of an abnormal condition. When the robot arm moves it back and forth, the wheels do not rotate along with the movement, likely due to an internal issue, like being stuck. This confirms that the toy car is not working properly."
+            ],
+            "front_wheel": [
+                "1.The toy car in the video shows signs of an abnormal condition. As the robotic arm moves it back and forth, the front wheels remain stationary, while the rear wheels roll as expected. This suggests an internal issue, such as a possible jam, confirming that the toy car is indeed malfunctioning.",
+                "2.In the video, the toy car does not appear to be functioning properly. When the robotic arm maneuvers it back and forth, only the rear wheels rotate, while the front wheels fail to move. This likely points to an internal problem, such as a jam, indicating the toy car is in an abnormal state.",
+                "3.Observing the video, it's clear that the toy car is not operating normally. When moved by the robotic arm, the front wheels do not roll, though the rear wheels perform as expected. This behavior indicates an internal issue, possibly a jam, confirming the toy car's abnormal condition.",
+                "4.The toy car in the video is evidently malfunctioning. When the robotic arm moves it in both directions, the rear wheels rotate as they should, but the front wheels remain stuck. This likely reflects an internal problem, such as a jam, confirming that the toy car is abnormal.",
+                "5.The video reveals that the toy car is not functioning as it should. When the robotic arm moves it back and forth, only the rear wheels roll, while the front wheels remain still, suggesting an internal issue like a jam. This confirms that the toy car is indeed abnormal."
+            ]
+        }
+    },
+    "caster_wheel": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a caster wheel and a robotic arm are displayed. The robotic arm securely grasps the universal wheel and moves it back and forth, allowing the wheel to roll effortlessly and the universal shaft to rotate as expected.",
+                "2.The video shows a robotic arm interacting with a caster wheel. The arm holds the wheel firmly, sliding it back and forth, which enables the wheel to roll smoothly while the universal shaft rotates without issue.",
+                "3.Featured in the video are a caster wheel and a robotic arm. The robotic arm grasps the wheel, guiding it in a back-and-forth motion that lets the wheel roll fluidly, with the universal shaft rotating normally throughout the movement.",
+                "4.A caster wheel and a robotic arm are shown in the video. The robotic arm holds onto the universal wheel and moves it back and forth, allowing for smooth rolling action and proper rotation of the universal shaft.",
+                "5.The video presents a caster wheel being manipulated by a robotic arm. As the robotic arm holds and moves the wheel back and forth, the wheel rolls seamlessly, and the universal shaft rotates as it should."
+            ],
+            "axis_stuck1": [
+                "1.In the video, a caster wheel and a robotic arm are shown. The robotic arm firmly grasps the universal wheel and moves it back and forth. Although the wheel rolls smoothly, the universal shaft appears to be stuck, unable to rotate.",
+                "2.The video displays a caster wheel and a robotic arm in action. The robotic arm holds onto the universal wheel, sliding it back and forth across a surface. While the wheel itself rolls without issue, the universal shaft is jammed and does not rotate.",
+                "3.A caster wheel and a robotic arm are the main objects featured in the video. The robotic arm securely grips the universal wheel and moves it in a back-and-forth motion. The wheel rolls freely, but the universal shaft remains immobile, unable to flip.",
+                "4.In the video, a robotic arm interacts with a caster wheel, gripping it and sliding it back and forth. While the wheel rolls smoothly as intended, the universal shaft is stuck in place and does not rotate.",
+                "5.The video presents a scene where a robotic arm holds a caster wheel and moves it back and forth. Although the wheel rolls effortlessly, the universal shaft is unable to rotate, remaining stuck throughout the movement."
+            ],
+            "axis_stuck2": [
+                "1.In the video, a robotic arm and a caster wheel are displayed. The robotic arm holds the caster wheel securely and slides it back and forth. While the wheel itself is stuck and doesn't roll, the universal shaft is able to flip freely.",
+                "2.The video showcases a scene involving a caster wheel and a robotic arm. The robotic arm grasps the caster wheel and moves it in a back-and-forth motion. Although the wheel remains stuck and cannot roll, the universal shaft is still able to flip as intended.",
+                "3.A robotic arm and a caster wheel are the main objects featured in the video. The robotic arm firmly holds the caster wheel and moves it back and forth. While the wheel remains stationary and does not roll, the universal shaft is able to rotate or flip.",
+                "4.In the video, a caster wheel and a robotic arm are set against a dark background. The robotic arm grasps the caster wheel, moving it back and forth. The wheel itself is unable to roll and remains stuck, yet the universal shaft retains its ability to flip.",
+                "5.The video presents a caster wheel and a robotic arm. The robotic arm holds onto the caster wheel and moves it back and forth. Despite the wheel being stuck and unable to roll, the universal shaft can still flip without issue."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The caster wheel in the video demonstrates normal functionality. When moved back and forth by the robot arm, the caster wheel rolls smoothly, and the universal shaft rotates freely as intended. This confirms that the caster wheel is in excellent working condition.",
+                "2.In the video, the caster wheel appears to be operating as expected. As the robot arm maneuvers it back and forth, the caster wheel rolls without issue, and the universal shaft flips smoothly, confirming that the caster wheel is in normal condition.",
+                "3.Observing the video, the caster wheel functions as it should. When the robot arm moves it in both directions, the caster wheel rolls effortlessly, and the universal shaft rotates appropriately, indicating that the caster wheel is in good working order.",
+                "4.The video shows that the caster wheel is functioning properly. As the robot arm moves it back and forth, the caster wheel rolls seamlessly, and the universal shaft turns as expected, verifying that the caster wheel is operating normally.",
+                "5.The caster wheel in the video is evidently in normal condition. When moved by the robot arm, it rolls smoothly, and the universal shaft flips as required, confirming that the caster wheel is working as intended."
+            ],
+            "axis_stuck1": [
+                "1.The caster wheel in the video appears to be experiencing an abnormal condition. While it rolls smoothly when the robot arm moves it back and forth, the universal shaft fails to rotate as expected. This issue may be caused by the universal shaft being stuck internally, confirming that the caster wheel is malfunctioning.",
+                "2.In the video, the caster wheel shows signs of abnormality. As the robot arm moves it back and forth, the wheel itself rolls without issue, but the universal shaft remains stationary. This could be due to the shaft being jammed inside, which confirms that the caster wheel is not functioning normally.",
+                "3.Observing the video, it's evident that the caster wheel is not fully operational. When moved back and forth by the robot arm, the wheel rolls as expected, but the universal shaft does not rotate. This is likely due to an internal blockage in the shaft, indicating an abnormal condition.",
+                "4.The caster wheel in the video does not appear to be functioning correctly. While it rolls smoothly when moved by the robot arm, the universal shaft fails to turn. This may be the result of an internal jam, verifying that the caster wheel is indeed abnormal.",
+                "5.The video suggests that the caster wheel is experiencing an issue. When the robot arm moves it back and forth, the wheel rolls as it should, but the universal shaft remains stuck. This may be due to an internal blockage, confirming that the caster wheel is not in normal working order."
+            ],
+            "axis_stuck2": [
+                "1.The caster wheel shown in the video appears to be malfunctioning. As the robot arm moves it back and forth, the wheel does not roll smoothly, which may be due to an internal jam. Despite this, the universal shaft rotates as expected, further confirming that the caster wheel is not functioning normally.",
+                "2.In the video, the caster wheel is clearly abnormal. When the robot arm moves it back and forth, the wheel fails to roll smoothly, likely because of an internal blockage. However, the universal shaft continues to rotate, which indicates that the caster wheel is indeed in an abnormal state.",
+                "3.The video demonstrates that the caster wheel is not operating correctly. When the robot arm moves it back and forth, the wheel encounters resistance and does not roll smoothly, possibly due to an internal jam. Nevertheless, the universal shaft rotates, confirming the caster wheel's abnormal condition.",
+                "4.Observing the video, the caster wheel appears to have an issue. When moved back and forth by the robot arm, the wheel does not roll as it should, which may be the result of an internal jam. However, the universal shaft remains functional, which verifies that the caster wheel is abnormal.",
+                "5.The caster wheel in the video is not functioning as expected. When the robot arm moves it back and forth, the wheel does not roll smoothly, possibly due to something stuck internally. Despite this, the universal shaft still rotates, further indicating that the caster wheel is abnormal."
+            ]
+        }
+    },
+    "clip": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm and clip are featured. The robotic arm applies pressure to the clip, causing it to open up. After the arm releases its hold, the clip returns to its initial position, closing again as it was before.",
+                "2.The video shows a robotic arm interacting with a clip. The arm exerts pressure on the clip, causing it to open. When the robotic arm releases the pressure, the clip automatically returns to its original closed position.",
+                "3.In the video, the robotic arm is seen pressing down on a clip, which causes it to open. As soon as the robotic arm releases the pressure, the clip returns to its original state, closing back to its default position.",
+                "4.The video features a clip and a robotic arm. The robotic arm applies force to the clip, making it open. Once the arm stops applying pressure and is released, the clip automatically returns to its original, closed position.",
+                "5.In the video, a robotic arm is shown pressing a clip, which causes it to open. Once the robotic arm withdraws, the clip returns to its initial position, closing as it was before the pressure was applied."
+            ],
+            "unable_press": [
+                "1.In the video, clips and a robotic arm are featured. The robotic arm exerts pressure on the clips, but the clips remain closed and do not open, which is consistent with their original state.",
+                "2.The video displays a robotic arm interacting with clips. Despite the robotic arm applying pressure, the clips do not open, staying in their initial, closed state as expected.",
+                "3.In the video, clips are shown alongside a robotic arm. The robotic arm presses down on the clips, but they remain closed and unchanged, in line with their original condition.",
+                "4.A robotic arm and clips are highlighted in the video. When the robotic arm applies force to the clips, they do not open, maintaining the same closed state as before.",
+                "5.The video presents a scene with clips and a robotic arm. As the robotic arm applies pressure to the clips, they stay firmly closed and do not open, which is consistent with their original state."
+            ],
+            "unable_rebound": [
+                "1.In the video, a robotic arm interacts with a clip. The robotic arm applies pressure to the clip, forcing it to open at an angle. After the robotic arm releases its grip, the clip remains in its opened position and does not return to its original state.",
+                "2.The video shows a clip and a robotic arm working together. As the robotic arm presses down on the clip, it opens at a specific angle. When the robotic arm is removed, the clip stays open and does not revert to its initial, closed position.",
+                "3.In the video, a robotic arm is seen pressing a clip. The applied pressure causes the clip to open at an angle. Even after the robotic arm releases the clip, it remains in the opened position and does not return to its starting position.",
+                "4.The video displays a scene with a robotic arm pressing a clip, causing it to open at a particular angle. After the robotic arm is withdrawn, the clip does not close back to its original position, staying in its opened state.",
+                "5.In the video, a clip and a robotic arm are shown. The robotic arm presses the clip, making it open at an angle. However, when the robotic arm lets go, the clip does not return to its original, closed position, remaining open instead."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The clip shown in the video seems to be operating as expected. When the robot arm presses down on it, the clip opens smoothly, and when the arm releases, it returns to its initial position, indicating that the clip is in good working condition.",
+                "2.In the video, the clip functions normally. As the robot arm presses it, the clip opens as it should, and upon release, it promptly returns to its original state. This behavior confirms that the clip is working properly.",
+                "3.Observing the video, the clip appears to be in normal condition. When the robot arm applies pressure, it opens smoothly, and once released, it resumes its original position, verifying that the clip is indeed functioning correctly.",
+                "4.The video demonstrates that the clip is in proper working order. When pressed by the robot arm, it opens as expected, and after the pressure is removed, it springs back to its original position, confirming that it operates normally.",
+                "5.The clip in the video is functioning as it should. When the robot arm presses it, the clip opens without issue, and after being released, it returns to its starting position, affirming that it is in normal condition."
+            ],
+            "unable_press": [
+                "1.The clip in the video demonstrates abnormal behavior. When the robot arm presses it, the clip fails to open completely, likely due to an internal issue or break. This confirms that the clip is not functioning as expected.",
+                "2.In the video, the clip appears to be malfunctioning. When pressed by the robot arm, it does not open fully, which may indicate an internal break. This observation confirms that the clip is indeed abnormal.",
+                "3.Observing the video, it's clear that the clip is not functioning normally. Although the robot arm applies pressure, the clip doesn't open as it should, possibly because of an internal defect. This confirms the clip's abnormal condition.",
+                "4.The video shows that the clip is operating abnormally. When the robot arm presses it, the clip cannot open fully, suggesting an internal break. This confirms that the clip is malfunctioning.",
+                "5.The clip in the video is evidently abnormal. When pressed by the robot arm, it doesn't open completely, likely due to an internal fault. This observation verifies that the clip is not in proper working order."
+            ],
+            "unable_rebound": [
+                "1.The clip in the video shows signs of abnormality. Although it opens as expected when the robot arm presses it, it does not return to its original position upon release. This issue could be due to an internal break, confirming that the clip is not functioning properly.",
+                "2.In the video, the clip appears to be malfunctioning. While it opens correctly when pressed by the robot arm, it fails to spring back to its initial position once released. This may be caused by an internal defect, indicating that the clip is indeed abnormal.",
+                "3.Observing the video, it's clear that the clip is not operating normally. When the robot arm presses it, the clip opens, but upon release, it does not return to its original state, likely due to an internal break, which confirms that the clip is malfunctioning.",
+                "4.The clip in the video demonstrates abnormal behavior. Though it opens properly when the robot arm applies pressure, it cannot resume its original position after release. This may be due to an internal fault, confirming that the clip is indeed abnormal.",
+                "5.The video reveals that the clip is not functioning correctly. While it opens under the pressure of the robot arm, it does not return to its starting position upon release, possibly because of an internal break. This confirms that the clip is in an abnormal condition."
+            ]
+        }
+    },
+    "clock": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, the object displayed is a clock. The motor powers the second hand, allowing it to rotate smoothly and operate as expected.",
+                "2.The video features a clock, with the second hand driven by a motor. This motorized movement enables the second hand to rotate smoothly and perform normally.",
+                "3.A clock is shown in the video, with its second hand rotating smoothly under the drive of a motor, functioning as it should.",
+                "4.The video presents a clock where the motor controls the second hand, making it rotate smoothly and perform its usual motion.",
+                "5.In the video, a clock is featured. The motor drives the second hand, ensuring it rotates smoothly and operates in a normal manner."
+            ],
+            "stuck": [
+                "1.The video features a clock driven by a motor. As the motor powers the hands, they rotate smoothly until they reach a specific position, where they become stuck.",
+                "2.In the video, a clock is shown with a motor controlling its hands. The hands rotate as expected, but upon reaching a particular point, they get stuck and stop moving.",
+                "3.A clock appears in the video, powered by a motor that drives the rotation of its hands. However, the hands become stuck once they reach a certain position on the dial.",
+                "4.The video presents a motor-powered clock, with the hands turning as the motor operates. When the hands reach a particular position, they stop and become stuck.",
+                "5.In the video, a motorized clock is shown, with the hands rotating continuously. However, at a certain point on the clock face, the hands get stuck and can't move further."
+            ],
+            "vibrate": [
+                "1.In the video, a clock is featured as the main object. Driven by a motor, the clock hand rotates while also vibrating back and forth in a continuous motion.",
+                "2.The video displays a motor-powered clock. The clock hand not only rotates but also vibrates slightly in a back-and-forth motion as it moves.",
+                "3.A clock is shown in the video, with its hand powered by a motor. The hand rotates around the dial, vibrating back and forth as it turns.",
+                "4.The video presents a clock, driven by a motor, with its hand rotating steadily while exhibiting a back-and-forth vibration throughout the movement.",
+                "5.In the video, a motorized clock is shown. The motor powers the clock hand, causing it to rotate and vibrate gently in a back-and-forth pattern."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The objects in the video seem to be operating as expected. The motor drives the pointer to rotate smoothly, suggesting that the object is functioning properly and in good working order.",
+                "2.In the video, the objects demonstrate normal functionality. The motor powers the pointer, allowing it to rotate as anticipated, which confirms that the object is in proper condition.",
+                "3.According to the video, the objects appear to be functioning correctly. The motor-driven pointer rotates without issue, indicating that the object is in good working condition.",
+                "4.The video suggests that the objects are operating normally. The motor causes the pointer to rotate as expected, showing that the object is functioning as it should.",
+                "5.As observed in the video, the objects seem to be working properly. The motor drives the pointer, which rotates as anticipated, confirming that the object is in proper operating condition."
+            ],
+            "stuck": [
+                "1.The objects in the video seem to be malfunctioning. The motor drives the clock's pointer, but it gets stuck at a specific position, likely due to an internal structural problem.",
+                "2.In the video, the objects show signs of an issue. While the motor drives the clock's pointer, it becomes stuck at a certain point, suggesting a possible internal structural fault.",
+                "3.The video suggests that the objects may be defective. The motor causes the clock's pointer to move, but it jams at a particular position, which could be due to an internal structural issue.",
+                "4.According to the video, the objects do not seem to be functioning correctly. The motor-driven pointer on the clock becomes stuck at a specific location, possibly due to an internal structural problem.",
+                "5.As observed in the video, the objects appear to be experiencing a malfunction. The motor drives the clock's pointer, but it halts at a certain point, which might be due to an issue within the internal structure."
+            ],
+            "vibrate": [
+                "1.The object in the video appears to be abnormal. The motor drives the clock, and although the pointer moves, it vibrates visibly, which may suggest an issue with the internal structure, indicating that the object is not operating correctly.",
+                "2.In the video, the object shows signs of malfunction. While the motor drives the clock and the pointer moves, it vibrates noticeably, possibly due to an internal structural problem, suggesting that the object is not functioning as it should.",
+                "3.The video suggests that the object is not working as expected. The clock, powered by the motor, has a pointer that moves with a visible vibration, indicating that there may be an internal structural issue affecting its proper function.",
+                "4.According to the video, the object seems to have a defect. The motor-driven clock shows a moving pointer that vibrates significantly, possibly due to internal damage, suggesting that the object is not operating normally.",
+                "5.As seen in the video, the object appears to be malfunctioning. The motor causes the clock's pointer to move, but it vibrates consistently, which could point to an internal structural issue, indicating that the object is not functioning properly."
+            ]
+        }
+    },
+    "fan": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a fan with several blades is positioned against a black background. The fan is powered by a motor, which enables it to rotate steadily. As the fan operates, its blades maintain a constant speed throughout the rotation, highlighting the smoothness of its motion.",
+                "2.The video displays a multi-blade fan placed on a black background, with a motor controlling its movement. As the motor powers on, the fan's blades begin to rotate at a steady, constant speed. This setup emphasizes the fan's uniform rotation driven by the motor.",
+                "3.A fan with multiple blades is showcased in the video, set against a black background for contrast. The fan's rotation is activated by a motor, which keeps the blades spinning at a consistent speed. This steady rotation highlights the motor's role in providing a constant operational speed.",
+                "4.The video features a colorful plastic fan with a motor in yellow and blue, spinning rapidly at a steady speed on a black surface. The camera focuses entirely on the fan, with the dark background providing a strong contrast to the vibrant spinning blades.",
+                "5.The video showcases a colorful plastic fan with a yellow and blue motor, spinning at a constant, fast speed on a black surface. The camera focuses solely on the fan, allowing the black background to contrast sharply with the spinning blades."
+            ],
+            "stuck": [
+                "1.In the video, a colorful plastic fan with multiple blades is seen spinning smoothly on a dark background, driven by a motor. Although the fan rotates consistently, it sometimes encounters minor pauses where the blades briefly stop.",
+                "2.The video shows a multi-blade fan set against a black background, rotating as powered by a motor. During rotation, the blades occasionally become stuck.",
+                "3.The scene displays a motor-driven fan with multiple blades spinning on a dark background, where the rotation is intermittently interrupted by brief blade stoppages.",
+                "4.Set against a black background, a multi-blade fan spins smoothly, powered by a motor, though the motion is occasionally interrupted when the blades get momentarily stuck.",
+                "5.In the video, a multi-blade fan is shown rotating on a contrasting black background, driven by a motor. The fan spins consistently for the most part, though intermittent blade stoppages cause short disruptions in the otherwise continuous motion."
+            ],
+            "uneven": [
+                "1.A multi-colored fan with several blades, connected to a motor in blue and yellow, is spinning on a black surface. During its rotation, the fan's speed varies, leading to noticeable fluctuations in its motion.",
+                "2.The video displays a  fan with multiple blades, attached to a motor in shades of blue and yellow, spinning on a dark surface. As it rotates, the fan's speed is not constant, showing visible changes in its pace.",
+                "3.A fan with  colored blades, powered by a motor , spins unsteadily on a black background. Throughout the rotation, the fan's speed shifts, with periodic fluctuations in its movement.",
+                "4.In the video, a colorful multi-blade fan attached to a blue and yellow motor is shown spinning on a black surface. The speed of the fan varies as it rotates, displaying clear changes in its spinning rate.\"",
+                "\"A multi-colored fan with numerous blades, powered by  motor, rotates on a black background. The fan's rotation speed is not steady, as it fluctuates during its motion.\""
+            ],
+            "vibrate": [
+                "1.The video features a fan driven by a motor. As the motor powers the rotation of the fan blades, it also produces noticeable vibrations throughout the spinning process.",
+                "2.In the video, a fan is shown in motion, with a motor responsible for driving the blades. During the rotation, the motor vibrates, adding a subtle shaking effect to the fan's movement.",
+                "3.A multi-colored fan is featured in the video, spinning on a tabletop and driven by a motor. The motor powers the fan blades' rotation and produces vibrations that can be observed during the movement.",
+                "4.The video displays a multi-colored fan, connected to a motor, spinning steadily on a table. The motor is responsible for driving the rotation of the fan blades, and during this process, it generates noticeable vibrations.",
+                "5.In the video, a fan with multiple colors is shown spinning on a table, powered by a motor. The motor not only drives the fan blades to rotate but also vibrates throughout the rotation, adding a slight trembling effect."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The fan in the video seems to be operating as expected. The motor drives the blades at a steady, constant speed, which indicates that the fan is functioning properly and in good working order.",
+                "2.In the video, the fan appears to be working correctly. The motor maintains a constant speed, allowing the blades to rotate smoothly, confirming that the fan is in proper condition.",
+                "3.Observing the video, it's clear that the fan is functioning normally. The motor drives the blades at a consistent speed, which suggests the fan is in excellent working condition.",
+                "4.The fan in the video demonstrates normal operation. Driven by the motor, the blades rotate steadily at a constant pace, confirming that the fan is in proper working order.",
+                "5.The video shows the fan operating as it should. The motor maintains a steady speed, ensuring that the blades rotate consistently, which indicates that the fan is functioning normally."
+            ],
+            "stuck": [
+                "1.The fan in the video shows signs of malfunction, with the blades remaining stuck even though the motor is trying to drive them. This may suggest an internal problem, confirming that the fan is not functioning normally.",
+                "2.In the video, the fan appears to be in an abnormal condition, as the blades are jammed despite the motor's efforts to turn them. This could indicate a fault within the fan, verifying that it is indeed malfunctioning.",
+                "3.Observing the video, it is evident that the fan is not operating correctly. Although the motor is active, the blades remain stationary, suggesting a possible internal issue that confirms the fan is abnormal.",
+                "4.The video demonstrates that the fan is experiencing an issue. While the motor is attempting to rotate the blades, they remain stuck, likely due to an internal problem, confirming that the fan is not functioning as expected.",
+                "5.The fan in the video does not appear to be working properly. Despite the motor's drive, the blades are unable to rotate, possibly due to an internal malfunction, which confirms that the fan is in an abnormal state."
+            ],
+            "uneven": [
+                "1.The fan in the video appears to be malfunctioning. Although the motor is driving the blades, they are rotating at inconsistent speeds, suggesting that there may be an issue within the fan's mechanism, possibly indicating that it is broken.",
+                "2.In the video, the fan seems to be operating abnormally. The motor drives the blades, but they rotate at uneven speeds, hinting at a possible internal fault and indicating that the fan may indeed be broken.",
+                "3.Observing the video, it's clear that the fan is not functioning correctly. While the motor is powering the blades, they spin at irregular speeds, which could suggest an underlying issue, indicating that the fan might be damaged.",
+                "4.The video shows that the fan is experiencing issues. Despite the motor driving the blades, they are running at inconsistent speeds, likely due to an internal malfunction, which suggests that the fan could be broken.",
+                "5.The fan in the video is not operating normally. Even though the motor is engaged, the blades rotate unevenly, hinting at a possible internal problem, which may indicate that the fan is damaged."
+            ],
+            "vibrate": [
+                "1.The fan in the video appears to be malfunctioning, as the blades are vibrating despite the motor's drive. This unusual vibration may suggest an internal problem, indicating that the fan could be broken.",
+                "2.In the video, the fan exhibits abnormal behavior. The motor is driving the blades, yet they are vibrating instead of rotating smoothly, hinting at a potential internal issue and suggesting that the fan may be damaged.",
+                "3.Observing the video, it's clear that the fan is not functioning properly. The motor is engaged, but the blades are vibrating, which could indicate an internal defect, confirming that the fan might be broken.",
+                "4.The video demonstrates that the fan is experiencing issues. Although the motor is powering the blades, they vibrate during operation, likely due to an internal fault, suggesting that the fan is indeed malfunctioning.",
+                "5.The fan in the video shows signs of abnormality, as the blades vibrate under the motor's drive. This behavior points to a possible internal issue, which may confirm that the fan is broken."
+            ]
+        }
+    },
+    "gear": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a motor drives a gear set. As the motor powers the system, each gear in the set rotates smoothly, showing synchronized motion.",
+                "2.The video features a gear set operated by a motor. The motor's action powers the entire set, making each individual gear rotate in unison.",
+                "3.A motor-driven gear set is displayed in the video. The motor causes the gears to rotate, with each gear turning steadily in response to the motor's drive.",
+                "4.The object in the video is a gear set connected to a motor. As the motor runs, it powers the gears, causing all of them to rotate simultaneously.",
+                "5.In the video, a gear set is shown, powered by a motor. The motor drives the rotation of each gear in the set, resulting in continuous, synchronized movement."
+            ],
+            "double": [
+                "1.In the video, a gear set powered by a motor is shown. Although most of the gears rotate as expected, two gears remain stationary and do not move.",
+                "2.The video features a motor-driven gear set, where the majority of the gears rotate. However, two gears stay in place and remain unmoving throughout the motion.",
+                "3.A gear set is displayed in the video, powered by a motor. While most gears are rotating smoothly, there are two gears that remain stationary and do not participate in the rotation.",
+                "4.In the video, a motor drives a gear set, causing nearly all the gears to rotate. Despite this, two specific gears stay fixed and do not turn with the others.",
+                "5.The video presents a motorized gear set. As the motor runs, most gears rotate, but two gears remain in a stationary position, unaffected by the rotation."
+            ],
+            "single": [
+                "1.In the video, a motor drives a gear set, causing most of the gears to rotate. However, one of the gears remains stationary and does not move with the others.",
+                "2.The video shows a motor-powered gear set, where most gears rotate smoothly. Despite this, one gear stays still and does not participate in the rotation.",
+                "3.A gear set powered by a motor is featured in the video. Although the motor causes most gears to turn, one gear remains unmoving, stationary within the set.",
+                "4.In the video, a motor-driven gear set is shown. While most gears rotate as expected, there is one gear that remains fixed and does not rotate along with the others.",
+                "5.The video presents a gear set operated by a motor. As the motor powers the set, nearly all gears rotate, except for one that stays still."
+            ],
+            "stuck": [
+                "1.In the video, a motor powers a gear set, causing it to rotate smoothly. However, as the gear set reaches a specific position, the gears become stuck and can no longer turn.",
+                "2.The video shows a gear set driven by a motor, rotating seamlessly at first. But when the gears reach a certain point, they become stuck, halting the rotation.",
+                "3.A motor-driven gear set is displayed in the video. The motor enables the gears to rotate smoothly until they reach a particular position, where they suddenly get stuck and stop moving.",
+                "4.In the video, the motor drives a gear set, making it rotate fluidly. However, as the gears turn to a specific position, they encounter resistance and become stuck, interrupting the motion.",
+                "5.The video presents a gear set powered by a motor, rotating effortlessly. As it turns, though, the gears reach a certain position where they lock up and can no longer rotate."
+            ],
+            "triple": [
+                "1.In the video, a motor powers a gear set consisting of three gears. However, despite the motor's operation, none of the three gears are rotating.",
+                "2.The video features a gear set driven by a motor. Although the motor is engaged, all three gears remain stationary and do not rotate.",
+                "3.A gear set with three gears is shown in the video, powered by a motor. Despite the motor's drive, none of the gears are in motion.",
+                "4.The video displays a gear set powered by a motor, which attempts to drive three gears. However, all three gears stay still and do not rotate.",
+                "5.In the video, a motor is connected to a gear set with three gears. Even though the motor is running, none of the three gears are moving."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The gears shown in the video seem to be operating as expected. The motor drives them to rotate smoothly, indicating that the gears are in good working condition.",
+                "2.In the video, the gears appear to be functioning properly. Powered by the motor, they rotate without any issues, confirming that the gears are indeed in normal working order.",
+                "3.Observing the video, the gears seem to be in excellent condition. The motor drives them, and they rotate smoothly, verifying that they are functioning as they should.",
+                "4.The video demonstrates that the gears are working correctly. Driven by the motor, the gears rotate seamlessly, which confirms they are operating in a normal condition.",
+                "5.The gears in the video operate normally, as the motor drives them to rotate smoothly. This indicates that the gears are functioning as expected and are in proper working condition."
+            ],
+            "double": [
+                "1.The gears in the video demonstrate abnormal behavior. Despite being driven by the motor, two of the gears do not rotate, while the remaining gears operate as expected. This may be due to an internal issue, such as improper meshing, confirming that the gears are indeed malfunctioning.",
+                "2.In the video, the gears appear to be functioning abnormally. Although the motor powers them, two gears remain stationary while the others rotate smoothly. This suggests a possible internal fault, like improper meshing, indicating that the gears are not operating correctly.",
+                "3.Observing the video, it's clear that the gears are experiencing a malfunction. While the motor drives them, two gears fail to turn, whereas the others work as intended. This could point to an internal problem, such as misalignment or improper meshing, confirming the gears' abnormal condition.",
+                "4.The video shows that the gears are not operating normally. Although the motor engages them, two gears do not rotate, even though the others function properly. This may be due to an internal defect, like a misalignment, indicating that the gears are indeed malfunctioning.",
+                "5.The gears in the video are not functioning correctly. While the motor drives the system, two gears remain still, while the rest rotate as expected. This may be due to an internal issue, such as improper meshing, confirming that the gears are in an abnormal state."
+            ],
+            "single": [
+                "1.The gears in the video display signs of malfunction. While the motor drives them, one gear remains stationary, while the others rotate as expected. This may be due to an internal fault, such as a misalignment, which confirms that this gear is indeed abnormal.",
+                "2.In the video, the gears appear to be operating abnormally. Although the motor drives them, one gear does not rotate, whereas the others rotate smoothly. This could be caused by an internal issue, like a misalignment, indicating that the gear is malfunctioning.",
+                "3.Observing the video, it's evident that the gears are not functioning correctly. The motor drives the system, yet one gear fails to rotate while the others operate normally. This may suggest an internal fault, such as a misalignment, confirming that the gear is abnormal.",
+                "4.The video shows that the gears are not fully operational. Driven by the motor, most gears rotate smoothly, but one gear remains still, possibly due to an internal fault like a misalignment. This indicates that the gear is in an abnormal condition.",
+                "5.The gears in the video do not appear to be functioning properly. Although the motor powers the system, one gear fails to turn, while the rest rotate as expected. This could be the result of an internal misalignment, confirming that this gear is indeed abnormal."
+            ],
+            "stuck": [
+                "1.The gear in the video shows signs of malfunction. Despite the motor driving it, the gear becomes stuck at a specific position, indicating a possible internal fault. This confirms that the gear is not functioning as it should.",
+                "2.In the video, the gear appears to be operating abnormally. Although the motor engages it, the gear jams at a certain point, which may suggest an internal issue, confirming that the gear is indeed malfunctioning.",
+                "3.Observing the video, it's evident that the gear is not working properly. Even though the motor drives it, the gear stalls at a particular position, likely due to an internal fault, verifying its abnormal condition.",
+                "4.The video demonstrates that the gear is malfunctioning. Although powered by the motor, the gear halts at a specific position, pointing to a possible internal fault, confirming the gear's abnormal state.",
+                "5.The gear in the video does not appear to be functioning correctly. Driven by the motor, it becomes stuck at a particular position, which may indicate an internal defect, confirming that the gear is indeed abnormal."
+            ],
+            "triple": [
+                "1.The gears in the video display abnormal behavior. Despite the motor driving them, three of the gears remain stationary. This may be caused by an internal issue, such as improper meshing, confirming that the gears are not functioning correctly.",
+                "2.In the video, the gears appear to be operating abnormally. Although the motor is engaged, three of the gears fail to rotate, likely due to an internal problem, such as poor meshing, indicating that the gears are malfunctioning.",
+                "3.Observing the video, it is evident that the gears are not functioning as they should. While the motor drives them, three gears remain still, possibly due to an internal fault like misaligned meshing, confirming the gears' abnormal state.",
+                "4.The gears in the video demonstrate signs of a malfunction. Although the motor powers them, three gears do not rotate, which may be due to an internal issue, such as improper meshing, confirming that the gears are abnormal.",
+                "5.The video shows that the gears are not operating correctly. Although the motor drives them, three gears fail to rotate, suggesting an internal fault, such as an issue with meshing, indicating that the gears are indeed abnormal."
+            ]
+        }
+    },
+    "hinge": {
+        "description_label": {
+            "angle_limited": [
+                "1.In the video, a robotic arm interacts with a hinge. The arm grasps the hinge and rotates it, though the range of the hinge's rotation is restricted.",
+                "2.The video shows a hinge and a robotic arm working together. The robotic arm grips the hinge and begins rotating it, but the hinge's rotation is limited to a specific angle.",
+                "3.A hinge and a robotic arm are featured in the video. The robotic arm holds and rotates the hinge, but the hinge can only rotate within a limited angle.",
+                "4.In the video, a robotic arm is shown operating a hinge. The arm grasps and turns the hinge, but its rotation is constrained to a certain angle.",
+                "5.The video presents a hinge controlled by a robotic arm. The arm grasps the hinge and rotates it, although the hinge has a limited range of rotation."
+            ],
+            "anomaly_free": [
+                "1.In the video, a robotic arm interacts with a hinge. The arm grasps the hinge firmly and rotates it, making the hinge move back and forth in a controlled motion.",
+                "2.The video shows a robotic arm holding a hinge. The robotic arm rotates the hinge, which then swings back and forth as a result of the motion.",
+                "3.A hinge and a robotic arm are featured in the video. The robotic arm grips the hinge and rotates it, causing the hinge to pivot back and forth.",
+                "4.In the video, a robotic arm operates a hinge by grasping and rotating it. This rotation makes the hinge swing repeatedly in a back-and-forth motion.",
+                "5.The video presents a robotic arm working with a hinge. As the robotic arm holds and rotates the hinge, the hinge moves in a smooth back-and-forth motion."
+            ],
+            "falloff": [
+                "1.In the video, a robotic arm is shown interacting with a hinge. The arm grasps and begins rotating the hinge, but as it moves, the shaft unexpectedly detaches and falls off.",
+                "2.The video displays a hinge operated by a robotic arm. The robotic arm grips the hinge and starts to rotate it, but during the process, the shaft becomes loose and falls away.",
+                "3.A hinge and a robotic arm are featured in the video. As the robotic arm holds and rotates the hinge, the shaft detaches and drops during the rotation.",
+                "4.In the video, a robotic arm is manipulating a hinge by rotating it. However, as the hinge turns, the shaft disengages and falls off unexpectedly.",
+                "5.The video presents a hinge controlled by a robotic arm. The arm grips the hinge and rotates it, but while it's in motion, the shaft disconnects and falls away from the hinge."
+            ]
+        },
+        "explanation_label": {
+            "angle_limited": [
+                "1.The hinge in the video displays signs of an anomaly. When the mechanical arm grips and rotates it, the hinge's movement is restricted to a narrow angle, confirming that the hinge is not functioning properly.",
+                "2.In the video, the hinge appears to be abnormal. As the mechanical arm grabs and rotates it, the hinge's rotation is limited to a small angle, indicating a malfunction.",
+                "3.Observing the video, it's evident that the hinge is not operating correctly. When the mechanical arm rotates it, the hinge's motion is confined to a limited angle, suggesting it is indeed abnormal.",
+                "4.The video shows that the hinge is experiencing an abnormality. When the mechanical arm grips and rotates it, the hinge's range of movement is restricted, pointing to a malfunction.",
+                "5.The hinge in the video does not appear to be functioning normally. The mechanical arm grabs it and attempts to rotate it, but the hinge's movement is limited to a narrow angle, confirming it is abnormal."
+            ],
+            "anomaly_free": [
+                "1.The hinge in the video seems to be operating as expected. The mechanical arm grabs hold of the hinge and rotates it smoothly back and forth, indicating that the hinge is in good working condition.",
+                "2.In the video, the hinge appears to function normally. The mechanical arm secures the hinge and moves it back and forth without any problems, confirming that the hinge is indeed in proper working order.",
+                "3.Observing the video, it's clear that the hinge is in normal condition. The mechanical arm grips it firmly and rotates it back and forth smoothly, which verifies that the hinge is functioning as intended.",
+                "4.The video demonstrates that the hinge is operating correctly. The mechanical arm holds and rotates it back and forth without difficulty, showing that the hinge is in good working order.",
+                "5.The hinge in the video appears to be in excellent condition. The mechanical arm grasps it securely and rotates it back and forth without issue, confirming that the hinge is functioning normally."
+            ],
+            "falloff": [
+                "1.The hinge in the video displays signs of malfunction. When the robot grabs and rotates it, the shaft unexpectedly detaches mid-rotation, likely due to an internal break, confirming that the hinge is indeed abnormal.",
+                "2.In the video, the hinge appears to be faulty. As the robot grabs and rotates it, the shaft falls off during the motion, suggesting a possible internal issue. This confirms that the hinge is abnormal.",
+                "3.Observing the video, it is clear that the hinge is not functioning correctly. When the robot grips and rotates it, the shaft detaches, likely due to an internal defect, confirming the hinge's abnormal state.",
+                "4.The hinge shown in the video seems to be malfunctioning. When the robot grabs it and begins rotating, the shaft comes loose mid-rotation, indicating an internal break, which confirms the hinge is abnormal.",
+                "5.The video demonstrates that the hinge is not in normal working order. As the robot grabs and rotates it, the shaft disconnects, likely from an internal fault, confirming that the hinge is indeed malfunctioning."
+            ]
+        }
+    },
+    "liquid": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm interacts with a clear bottle filled with water, performing several actions including positioning the bottle, turning it upside down to pour the water into a clear glass, and shaking it. Throughout the entire process, the water inside the bottle remains clear and free of any foreign particles.",
+                "2.The video features a robotic arm that engages with a transparent, water-filled bottle through multiple actions: placing the bottle, inverting it to pour water into a clear glass, and shaking it. The water within the bottle stays clear and devoid of any foreign matter throughout the procedure.",
+                "3.A robotic arm is shown interacting with a clear bottle containing water, executing various actions such as positioning it, flipping it upside down to pour water into a transparent glass, and shaking the bottle. Throughout these actions, the water remains clear with no foreign particles present.",
+                "4.In the video, a robotic arm manipulates a transparent bottle filled with water in several ways, including correctly positioning it, turning it upside down to pour water into a clear glass, and shaking it. The water inside remains clear and free from any impurities during the entire process.",
+                "5.The video depicts a robotic arm interacting with a clear, water-filled bottle, engaging in multiple actions like placing the bottle, inverting it to pour water into a transparent glass, and shaking it. Throughout the sequence, the water in the bottle stays clear and contains no foreign particles."
+            ],
+            "foreign_obj": [
+                "1.In the video, a robotic arm manipulates a clear bottle filled with water through several actions, such as positioning, turning it upside down, and shaking it. When the bottle is inverted, water pours out, revealing a small light and a white object floating inside. As the arm shakes the bottle, foreign particles become visible within the liquid, and the bottle is finally returned to its upright position.",
+                "2.The video displays a robotic arm engaging with a transparent, water-filled bottle, performing actions including positioning, flipping it upside down, and shaking it. When the bottle is inverted, water flows out, and a small light as well as a white floating object are visible inside. Foreign particles are observed in the liquid during the shaking, and the sequence concludes with the bottle being placed back in its original position.",
+                "3.In this video, a robotic arm handles a clear bottle containing water, moving it through various motions like positioning, inverting, and shaking. Upon turning the bottle upside down, water pours out, exposing a small light and a white floating object within. While shaking the bottle, foreign particles are seen in the liquid, and at the end, the bottle is set back to its original position.",
+                "4.The video captures a robotic arm interacting with a transparent bottle filled with water, going through a series of actions, including positioning the bottle, turning it upside down, and shaking it. As the bottle is inverted, water flows out, and both a small light and a white object can be observed floating inside. Foreign particles become visible during the shaking, and the bottle is finally returned to its original orientation.",
+                "5.In the video, a robotic arm manipulates a clear, water-filled bottle, performing tasks like positioning, flipping it upside down, and shaking it. When inverted, the water flows out, and a small light along with a white floating object can be seen inside. During the shaking motion, suspended foreign objects are visible in the liquid, and the bottle is ultimately returned to its initial position."
+            ],
+            "leak": [
+                "1.A robotic arm handles a clear plastic bottle containing water, adjusting it into different orientations. At first, the bottle is positioned onto the arm, which then rotates it upside down, releasing the water. The arm returns the bottle to its upright position, resulting in a decrease in the water level. In another scene, the arm shakes the bottle, causing further water to leak out.",
+                "2.The video showcases a robotic arm holding a transparent plastic bottle filled with water, maneuvering it into different positions. Initially, the bottle is mounted on the arm, which then flips it upside down, allowing water to spill out. The arm then turns the bottle back to its upright position, making the water level drop. In a separate part, the arm shakes the bottle, resulting in additional water leakage.",
+                "3.A robotic arm interacts with a clear water-filled plastic bottle, positioning it in multiple ways. First, the arm secures the bottle and rotates it upside down, causing the water to flow out. It then brings the bottle back to an upright stance, lowering the water level. Later in the sequence, the arm shakes the bottle, prompting more water to leak.",
+                "4.In this sequence, a robotic arm grips a transparent plastic bottle filled with water, adjusting it through different angles. Initially, the arm flips the bottle upside down, causing water to pour out. It then returns the bottle to an upright position, resulting in a drop in the water level. Later, the arm shakes the bottle, leading to further leakage.",
+                "5.The scene features a robotic arm holding a clear plastic bottle containing water, moving it into varied positions. First, the arm turns the bottle upside down, allowing water to escape. It then rotates the bottle back upright, which causes the water level to decrease. In this instance, the arm shakes the bottle, leading to additional leakage."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The object in the video seems to be in normal condition. As the robot arm shakes the bottle, the liquid inside responds by moving up and down in harmony with the arm's motion. There is no foreign matter visible in the liquid, confirming that the object is functioning as expected.",
+                "2.In the video, the object appears to be working correctly. When the robot arm shakes the bottle, the liquid inside moves up and down smoothly, matching the arm's movement. The absence of any foreign material in the liquid confirms that the object is in proper condition.",
+                "3.Observing the video, the object appears to function normally. As the robot arm moves the bottle, the liquid inside follows the motion, shifting up and down in sync. Since there is no foreign matter present in the liquid, it confirms the object's normal condition.",
+                "4.The object in the video demonstrates normal behavior. The robot arm shakes the bottle, causing the liquid to move up and down accordingly. With no foreign particles observed in the liquid, this confirms that the object is in good working order.",
+                "5.The video shows that the object is operating as it should. When the robot arm shakes the bottle, the liquid inside moves up and down with it. The liquid is free of any foreign matter, verifying that the object is in proper condition.s"
+            ],
+            "foreign_obj": [
+                "1.The object in the video shows signs of being abnormal. As the robotic arm shakes the bottle, the liquid inside follows the motion, moving up and down. A foreign object becomes visible within the liquid during this movement, confirming that the object is indeed not in its normal condition.",
+                "2.In the video, the object appears to be malfunctioning. When the robotic arm shakes the bottle, the liquid inside moves up and down, but a foreign object can be seen within the liquid as it shakes, indicating that the object is abnormal.",
+                "3.Observing the video, the object does not seem to be in normal condition. As the robotic arm moves the bottle up and down, the liquid follows suit, but a foreign particle is visible within the liquid, confirming that the object is abnormal.",
+                "4.The video demonstrates that the object is not functioning as expected. While the robotic arm shakes the bottle and the liquid moves with it, a foreign object appears in the liquid, indicating that the object is indeed abnormal.",
+                "5.The object in the video appears to be faulty. When the robotic arm shakes the bottle, the liquid moves up and down as expected, but a foreign object is visible within the liquid, confirming that the object is abnormal."
+            ],
+            "leak": [
+                "1.The object in the video seems to be malfunctioning. As the robotic arm shakes the bottle, the liquid inside moves up and down, but some liquid starts to leak. This could suggest a crack in the bottle, confirming that the object is abnormal.",
+                "2.In the video, the object appears to be defective. When the robotic arm shakes the bottle, the liquid inside moves along with the motion, yet there is some leakage. This may indicate a crack in the bottle, verifying that the object is indeed abnormal.",
+                "3.Observing the video, it's clear that the object is not in normal condition. As the robotic arm shakes the bottle and the liquid moves up and down, some liquid begins to leak, which may suggest a crack, confirming the object's abnormal state.",
+                "4.The video shows that the object is not functioning correctly. While the robotic arm moves the bottle, causing the liquid to move with it, some liquid leaks out. This likely points to a crack in the bottle, confirming the object's abnormality.",
+                "5.The object in the video demonstrates signs of a fault. As the robotic arm shakes the bottle, the liquid moves with the motion, but leakage occurs, possibly due to a crack. This confirms that the object is indeed abnormal."
+            ]
+        }
+    },
+    "lock": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a door lock is shown in action. A motor drives the rotation of the keyhole, which in turn causes the door bolt to extend outward and retract back with each complete rotation.",
+                "2.The video showcases a door lock mechanism. The keyhole is rotated by a motor, and with each rotation, the door bolt moves by extending and retracting in response to the keyhole's motion.",
+                "3.A door lock is featured in the video, with the keyhole rotating as it's powered by a motor. This rotation causes the door bolt to pop out and then retract repeatedly with each turn of the keyhole.",
+                "4.In the video, there is a door lock where the motor drives the keyhole to rotate. As the keyhole turns, the door bolt extends and then retracts, moving in sync with the keyhole's rotation.",
+                "5.The video presents a door lock mechanism in which a motor powers the rotation of the keyhole. With each rotation, the door bolt projects outward and then retracts, following the movement of the keyhole."
+            ],
+            "jam": [
+                "1.In the video, a door lock is shown as the primary object. Although a motor powers the keyhole to rotate, it becomes stuck and does not turn, which also prevents the bolt from retracting.",
+                "2.The video features a door lock mechanism driven by a motor. The motor attempts to rotate the keyhole, but it is stuck in place, stopping the bolt from retracting as intended.",
+                "3.A door lock is highlighted in the video, with a motor engaged to rotate the keyhole. However, the keyhole remains immobile, resulting in the bolt being unable to retract.",
+                "4.In the video, a motor powers the keyhole of a door lock, attempting to make it rotate. Despite the motor's effort, the keyhole stays stuck, which means the bolt cannot retract.",
+                "5.The video displays a door lock operated by a motor. While the motor drives the keyhole to rotate, the keyhole remains jammed, thereby preventing the bolt from retracting as it should."
+            ],
+            "structure_detache": [
+                "1.In the video, a door lock is shown. A motor drives the rotation of the keyhole, but despite the keyhole's movement, the door bolt remains stationary in its original position and does not retract.",
+                "2.The video features a door lock mechanism, where a motor causes the keyhole to rotate. However, as the keyhole turns, the door bolt stays fixed in place and is unable to retract.",
+                "3.A door lock is the main object in the video, with a motor powering the rotation of the keyhole. Although the keyhole moves, the door bolt remains in its original position and does not retract as expected.",
+                "4.In the video, a door lock is driven by a motor, which rotates the keyhole. Despite this rotation, the door bolt stays in its initial position, unable to retract or move.",
+                "5.The video presents a door lock, where the motor drives the keyhole to rotate. Yet, even as the keyhole turns, the door bolt does not retract and remains locked in its original position."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The door lock shown in the video seems to be operating as expected. As the motor rotates the keyhole, the bolt retracts smoothly and returns to its original position, indicating that the door lock is in good working condition.",
+                "2.In the video, the door lock appears to function properly. Driven by the motor, the keyhole rotates, allowing the bolt to retract and then return to its initial position, confirming that the door lock is operating normally.",
+                "3.Observing the video, it's clear that the door lock is functioning correctly. The motor drives the keyhole rotation, causing the bolt to retract and smoothly return to its starting position, verifying the door lock's normal condition.",
+                "4.The video demonstrates that the door lock is working as it should. As the motor rotates the keyhole, the bolt moves back and then returns to its original state, which confirms that the door lock is in proper order.",
+                "5.The door lock in the video is operating normally. The motor drives the keyhole, allowing the bolt to retract and reset to its original position, indicating that the door lock is in correct working condition."
+            ],
+            "jam": [
+                "1.The door lock in the video shows signs of malfunction. Although the motor tries to rotate the lock hole, it stays immobile, and the bolt does not retract. This could be due to an internal jam or similar issue, confirming that the door lock is indeed abnormal.",
+                "2.In the video, the door lock appears to be experiencing an issue. While the motor attempts to turn the lock hole, it doesn't move, and the bolt fails to retract, possibly due to an internal jam, which confirms that the door lock is not functioning properly.",
+                "3.Observing the video, it's clear that the door lock is not operating correctly. The motor tries to drive the lock hole to rotate, but it remains stuck, and the bolt does not retract, likely due to an internal blockage or similar fault, confirming that the door lock is abnormal.",
+                "4.The video reveals a problem with the door lock. Although the motor is working to rotate the lock hole, it remains stationary, preventing the bolt from retracting. This may be due to an internal jam, indicating that the door lock is indeed malfunctioning.",
+                "5.The door lock in the video does not appear to be functioning correctly. While the motor drives the lock hole, there is no movement, and the bolt does not retract, suggesting a potential internal jam or other issue, confirming the door lock's abnormal state."
+            ],
+            "structure_detache": [
+                "1.The door lock in the video shows signs of malfunction. Although the motor drives the lock hole to rotate, the bolt does not retract as it should. This could be due to an internal jam or other issue, confirming that the door lock is not functioning properly.",
+                "2.In the video, the door lock appears to be faulty. Despite the motor rotating the lock hole, the bolt fails to retract, possibly due to an internal blockage or similar issue, indicating that the door lock is indeed abnormal.",
+                "3.Observing the video, it is clear that the door lock is not operating correctly. While the motor successfully rotates the lock hole, the bolt remains stuck and does not retract, suggesting an internal jam and confirming that the door lock is malfunctioning.",
+                "4.The video reveals an issue with the door lock. Although the motor turns the lock hole as intended, the bolt does not retract, which may be caused by an internal jam, confirming that the door lock is in an abnormal state.",
+                "5.The door lock in the video does not appear to be working correctly. The motor drives the lock hole to rotate, but the bolt fails to retract, likely due to an internal issue, such as a jam, indicating that the lock is indeed malfunctioning."
+            ]
+        }
+    },
+    "magnet": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm is seen interacting with a magnet. The robotic arm securely holds the magnet and moves it closer to a metal plate. Upon releasing the magnet, it is immediately drawn to and attaches to the metal plate.",
+                "2.The video shows a scene with a robotic arm and a magnet. The robotic arm grasps the magnet and brings it toward a metal plate. As soon as the robotic arm releases the magnet, it becomes magnetically attracted to the metal plate.",
+                "3.A robotic arm and a magnet are featured in the video. The robotic arm holds onto the magnet and guides it towards a nearby metal plate. When the robotic arm lets go, the magnet is pulled to the metal plate by magnetic attraction.",
+                "4.In the video, there is a magnet and a robotic arm. The robotic arm grabs the magnet and moves it in the direction of a metal plate. Once the arm releases its hold, the magnet is attracted to the metal plate and attaches itself.",
+                "5.The video presents a magnet and a robotic arm. The robotic arm holds the magnet firmly and positions it close to a metal plate. Upon release, the magnet naturally draws toward and adheres to the metal plate due to magnetic attraction."
+            ],
+            "degaussing": [
+                "1.In the video, a robotic arm and a magnet are shown. The robotic arm firmly holds the magnet and guides it toward a metal plate. After releasing its grip, the magnet unexpectedly falls off instead of attaching to the plate.",
+                "2.The video displays a magnet and a robotic arm. The robotic arm secures the magnet and moves it toward a metal plate, but once it releases, the magnet drops away rather than staying connected to the plate.",
+                "3.A magnet and a robotic arm are the main objects in the video. The robotic arm grabs hold of the magnet and directs it toward a metal plate. However, as soon as the arm lets go, the magnet falls away from the plate.",
+                "4.In the video, a robotic arm interacts with a magnet, gripping it and moving it close to a metal plate. When the robotic arm releases its hold, the magnet doesn't stick but instead falls off immediately.",
+                "5.The video features a robotic arm holding a magnet and moving it in the direction of a metal plate. Upon release, however, the magnet does not remain attached to the plate; instead, it falls away."
+            ],
+            "drop": [
+                "1.In the video, a robotic arm is shown holding a magnet. The arm grips the magnet firmly and moves it toward a metal plate. When the robotic arm releases the magnet, its outer shell detaches and falls off, while the inner part of the magnet is drawn to the metal plate.",
+                "2.The video presents a scene with a robotic arm and a magnet. The robotic arm grasps the magnet and directs it toward a metal plate. As the robotic arm lets go, the outer casing of the magnet falls away, allowing the inner magnet to attach itself to the metal plate.",
+                "3.A robotic arm and a magnet are featured in the video. The robotic arm secures the magnet and moves it closer to a metal plate. Upon release, the outer shell of the magnet drops, leaving the inner magnet to be attracted to and attach to the metal plate.",
+                "4.In the video, a robotic arm interacts with a magnet by gripping it and moving it toward a metal plate. When the arm releases its hold, the outer shell of the magnet separates and falls, while the core of the magnet attaches to the metal plate due to magnetic attraction.",
+                "5.The video displays a robotic arm holding a magnet, which it moves toward a metal plate. As soon as the robotic arm releases it, the outer casing of the magnet falls off, and the inner magnetic component is immediately drawn to the metal plate."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The object in the video is a magnet. The robotic arm grabs hold of the magnet and moves it toward a metal plate. Upon release, the magnet attaches securely to the plate, confirming that it is functioning as expected.",
+                "2.In the video, the object shown is a magnet. The robotic arm picks it up and moves it close to the metal plate. When released, the magnet is drawn to and sticks to the metal plate, indicating that it is working normally.",
+                "3.Observing the video, it's clear that the object is a magnet. The robotic arm lifts it and brings it near the metal plate, and upon release, the magnet attaches to the plate as expected, verifying that it is functioning correctly.",
+                "4.The video demonstrates that the object is a magnet. The robotic arm positions it close to the metal plate, and after releasing it, the magnet adheres to the plate, which confirms that it is in proper working order.",
+                "5.The object in the video appears to be a functioning magnet. As the robotic arm moves it toward the metal plate, the magnet sticks to the plate upon release, showing that it is working as intended."
+            ],
+            "degaussing": [
+                "1.The magnet in the video appears to be malfunctioning. As the robotic arm moves it close to the metal plate and releases it, the magnet does not stick but instead drops immediately. This could be due to demagnetization or a related issue, indicating that the magnet is abnormal.",
+                "2.In the video, the magnet is showing signs of an abnormal condition. When the robotic arm brings it toward the metal plate and lets go, the magnet fails to attach and simply falls away. This may be the result of demagnetization or a similar issue, confirming that the magnet is not functioning properly.",
+                "3.Observing the video, it's evident that the magnet is not operating as expected. When moved near the metal plate by the robotic arm and released, the magnet does not adhere and drops directly, likely due to demagnetization or another issue, verifying that it is abnormal.",
+                "4.The video demonstrates that the magnet is not functioning correctly. Although the robotic arm moves it toward the metal plate, the magnet does not attach when released and instead falls straight down. This may suggest demagnetization, indicating that the magnet is indeed abnormal.",
+                "5.The magnet in the video does not appear to be working as it should. When the robotic arm positions it near the metal plate and releasses it, the magnet fails to stick and falls immediately, possibly due to demagnetization or a similar defect, confirming that it is abnormal."
+            ],
+            "drop": [
+                "1.The magnet in the video shows signs of malfunction. As the robotic arm brings it close to the metal plate and releases it, only the outer shell drops, suggesting a possible internal break or similar defect. This confirms that the magnet is indeed abnormal.",
+                "2.In the video, the magnet appears to be faulty. When the robotic arm moves it toward the metal plate and lets go, the outer shell of the magnet falls away, which may be due to an internal break or other issue, indicating that the magnet is not functioning properly.",
+                "3.Observing the video, it's clear that the magnet is not in normal condition. As the robotic arm brings it to the metal plate and releases it, only the outer shell falls off, likely from an internal break or similar problem, verifying that the magnet is abnormal.",
+                "4.The video reveals that the magnet is not operating correctly. When the robotic arm places it near the metal plate and releases it, the outer shell alone falls, which may point to an internal defect, confirming that the magnet is indeed abnormal.",
+                "5.The magnet in the video does not appear to be functioning as expected. Upon being released near the metal plate by the robotic arm, only the outer casing falls away, likely due to an internal break or similar issue, indicating that the magnet is abnormal."
+            ]
+        }
+    },
+    "rolling_bearing": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a rolling bearing is shown operating under the drive of a motor. The motor initiates rotation, setting the bearing in motion, which in turn causes the ball within to spin along with it.",
+                "2.The video displays a rolling bearing powered by a motor. As the motor drives its rotation, the bearing turns, allowing the internal ball to rotate in sync with the bearing's movement.",
+                "3.A rolling bearing and motor are featured in the video. The motor powers the bearing, making it rotate, and as the bearing spins, the ball inside rotates simultaneously.",
+                "4.In the video, a motor-driven rolling bearing is shown. The motor drives the bearing's rotation, and as it turns, the ball inside the bearing rotates as well.",
+                "5.The video presents a rolling bearing connected to a motor. The motor drives the bearing to spin, causing the inner ball to rotate in harmony with the bearing's movement."
+            ],
+            "ball_stuck": [
+                "1.In the video, a motor drives a rolling bearing, causing the bearing to rotate. However, despite the bearing's movement, the ball inside remains stationary and does not turn with the bearing.",
+                "2.The video displays a rolling bearing powered by a motor. As the motor rotates the bearing, the ball within stays still and does not spin, moving independently of the bearing's rotation.",
+                "3.A motor-driven rolling bearing is featured in the video. Although the bearing itself rotates, the internal ball does not rotate in sync and remains stationary throughout.",
+                "4.In the video, a rolling bearing is shown turning under the influence of a motor. Despite the rotation of the bearing, the ball inside remains unmoved and does not rotate along with the bearing.",
+                "5.The video presents a motor operating a rolling bearing. As the bearing rotates, the inner ball stays stationary, showing no movement in response to the bearing's rotation.s"
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The rolling bearing depicted in the video seems to be operating in optimal condition. The motor effectively powers the bearing, allowing it to rotate smoothly and steadily. The ball within the bearing also rotates as anticipated, providing clear confirmation that the rolling bearing is in satisfactory working condition.",
+                "2.In the video, the rolling bearing demonstrates normal functionality. The motor drives the bearing's rotation with smooth, uninterrupted movement, and the ball within the bearing rotates in alignment with expectations. This consistent motion reaffirms that the rolling bearing is in sound operational condition.",
+                "3.According to the video, the rolling bearing appears to be in a stable working state. Driven by the motor, the bearing rotates smoothly, with the inner ball rolling as expected. These observations collectively verify that the rolling bearing is functioning correctly without any apparent issues.",
+                "4.The video illustrates that the rolling bearing is operating in a normal and effective manner. The motor initiates the bearing's rotation seamlessly, with the bearing's ball maintaining steady movement as anticipated. This evidence confirms that the rolling bearing is performing its role as expected.",
+                "5.As shown in the video, the rolling bearing seems to be working as intended. The motor drives it in a smooth, even rotation, and the ball within the bearing moves accordingly, further indicating that the rolling bearing is in good operating condition and functioning properly."
+            ],
+            "ball_stuck": [
+                "1.The rolling bearing shown in the video seems to be experiencing a malfunction. Although the motor drives the bearing to rotate, the ball inside does not move as expected, possibly due to being stuck. This issue indicates that the rolling bearing is not functioning correctly.",
+                "2.In the video, the rolling bearing exhibits signs of malfunction. The motor rotates the bearing as intended, yet the inner ball remains motionless, which might suggest it is stuck. This observation points to an issue with the rolling bearing's performance.",
+                "3.The rolling bearing in the video appears to be experiencing operational issues. While the motor successfully drives the bearing's rotation, the internal ball remains still, likely indicating it is jammed. This suggests that the rolling bearing is not functioning as it should.",
+                "4.According to the video, the rolling bearing does not seem to be operating correctly. Though the motor drives the bearing, the ball inside fails to rotate, possibly because it is lodged or stuck. This condition suggests a malfunction in the rolling bearing.",
+                "5.As observed in the video, the rolling bearing seems to be encountering a problem. The motor drives it to rotate, but the internal ball is not moving, possibly because it is blocked. This malfunction indicates that the rolling bearing is not performing as expected."
+            ]
+        }
+    },
+    "rubber_band": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm interacts with a rubber band. As the robotic arm opens, it pulls the rubber band, stretching it as it moves.",
+                "2.The video shows a robotic arm holding a rubber band. When the robotic arm opens, the rubber band is gradually stretched, increasing its tension.",
+                "3.A rubber band and a robotic arm are featured in the video. As the robotic arm opens, the rubber band extends and stretches in response to the movement.",
+                "4.In the video, a robotic arm and a rubber band are shown. As the robotic arm moves apart, it causes the rubber band to stretch and lengthen.",
+                "5.The video presents a robotic arm working with a rubber band. As the robotic arm opens up, it pulls on the rubber band, causing it to stretch."
+            ],
+            "crack": [
+                "1.In the video, a robotic arm interacts with a rubber band. As the robotic arm opens and stretches the rubber band, tiny cracks start to form on the surface of the band.",
+                "2.The video shows a robotic arm and a rubber band. When the robotic arm opens, pulling the rubber band taut, small cracks begin to appear on the rubber band's surface.",
+                "3.A rubber band and a robotic arm are featured in the video. As the robotic arm opens and stretches the rubber band, minor cracks develop on the band's surface.",
+                "4.In the video, a robotic arm pulls a rubber band as it opens. This action stretches the rubber band, causing small cracks to form along its surface.",
+                "5.The video presents a scene with a rubber band and a robotic arm. As the robotic arm opens, it stretches the rubber band, and small cracks start to emerge across the surface."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The object in the video seems to be operating as it should. As the robotic arm stretches the rubber band, the band extends smoothly in response, confirming that the object is functioning correctly.",
+                "2.In the video, the object demonstrates normal functionality. The robotic arm pulls on the rubber band, which stretches as anticipated, suggesting that the object is working as expected.",
+                "3.According to the video, the object appears to be in good working order. The robotic arm stretches the rubber band, and the band extends accordingly, indicating that the object is performing normally.",
+                "4.The video shows the object functioning without any issues. When the robotic arm stretches the rubber band, it extends as expected, confirming that the object is in proper operational condition.",
+                "5.As observed in the video, the object is operating normally. The robotic arm stretches the rubber band, which extends as it should, suggesting that the object is in satisfactory working condition."
+            ],
+            "crack": [
+                "1.The object shown in the video seems to be in an abnormal state. As the robotic arm stretches the rubber band, small cracks appear along the band, suggesting that the object may not be in ideal condition.",
+                "2.In the video, the object displays signs of abnormality. While the robotic arm pulls the rubber band, minor cracks become visible on the band's surface, indicating that the object is not in optimal working condition.",
+                "3.The video suggests that the object may be faulty. As the robotic arm stretches the rubber band, fine cracks emerge on the band, pointing to a possible defect in the object's condition.",
+                "4.The object in the video does not appear to be in perfect condition. While the robotic arm stretches the rubber band, small cracks develop, indicating that the object might be compromised.",
+                "5.According to the video, the object seems to have an issue. As the robotic arm stretches the rubber band, tiny cracks are visible on its surface, suggesting that the object is not performing as it should."
+            ]
+        }
+    },
+    "screw": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a motor drives a screw to fasten an object securely. As the motor turns, the screw is gradually tightened, and by the end, it is fully secured in place.",
+                "2.The video displays a motor-driven screw working to secure an object. With each rotation of the motor, the screw tightens progressively until it reaches a fully secure position.",
+                "3.A screw is shown in the video, driven by a motor to affix an object. As the motor rotates, the screw tightens little by little until it is firmly in place.",
+                "4.In the video, a motor powers a screw to attach an object. As the motor spins, the screw gradually tightens, eventually becoming fully secure.",
+                "5.The video features a motor rotating a screw to fasten an object. With each turn of the motor, the screw tightens gradually until it is securely fixed."
+            ],
+            "stripped": [
+                "1.In the video, a motor is shown driving a screw to secure an object. As the motor rotates, the screw is inserted into the hole, but it does not reach full tightness in the end.",
+                "2.The video displays a screw being driven by a motor to fasten an object in place. The motor's rotation allows the screw to enter the hole, yet it remains loosely fitted and does not fully tighten.",
+                "3.A motor-driven screw is shown in the video, intended to fix an object securely. While the motor's rotation guides the screw into the hole, it does not completely tighten at the finish.",
+                "4.In the video, a screw is powered by a motor to attach an object. Although the screw enters the hole as the motor rotates, it fails to achieve full tightness in the final position.",
+                "5.The video presents a screw being driven into a hole by a motor to secure an object. The screw enters the hole smoothly with the motor's help, but it remains slightly loose and does not fully tighten in the end."
+            ],
+            "unable_goin": [
+                "1.In the video, a motor is used to drive a screw intended to secure an object. However, despite the motor's rotation, the screw does not manage to enter the hole as expected.",
+                "2.The video displays a motor attempting to drive a screw to fix an object in place. As the motor rotates, the screw remains unable to fit into the hole.",
+                "3.A screw is shown in the video, driven by a motor with the purpose of securing an object. Yet, even as the motor spins, the screw does not succeed in entering the hole.",
+                "4.In the video, a motor is rotating a screw in an attempt to fasten an object. Despite the rotation, the screw fails to align with and enter the hole.",
+                "5.The video presents a motor-powered screw meant to secure an object. However, as the motor continues to rotate, the screw does not manage to go into the hole."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The object in the video seems to be operating correctly. The motor steadily drives the screw into the hole, and the screw tightens securely when it reaches the bottom, confirming that the object is in good working condition.",
+                "2.In the video, the object demonstrates normal functionality. The motor is used to drive the screw into the hole, and it tightens properly upon full insertion, suggesting that the object is functioning as expected.",
+                "3.The video indicates that the object is working as it should. The motor drives the screw down into the hole, and once it's fully inserted, it tightens securely, confirming the object's normal condition.",
+                "4.According to the video, the object appears to be in proper condition. The motor drives the screw into place, where it tightens firmly after reaching the base, signaling that the object is functioning normally.",
+                "5.The object in the video shows no signs of malfunction. The motor smoothly drives the screw into the hole, and it tightens appropriately at full depth, indicating that the object is operating correctly."
+            ],
+            "stripped": [
+                "1.The object in the video appears to be in an abnormal state. While the motor successfully drives the screw into the hole, the screw continues to rotate upon reaching the bottom, showing that it hasn't properly tightened. This could be due to factors like an incorrect screw size, indicating a malfunction in the object.",
+                "2.In the video, the object exhibits signs of abnormality. Although the motor drives the screw down into the hole, the screw keeps rotating even after reaching full depth, revealing that it hasn't tightened. Possible causes could include a size mismatch, suggesting an issue with the object's performance.",
+                "3.The object shown in the video does not seem to be functioning correctly. Although the motor drives the screw into place, the screw continues spinning after it bottoms out, indicating that it hasn't tightened. This may result from a size discrepancy with the screw, implying an abnormal condition with the object.",
+                "4.According to the video, the object is not operating as expected. The motor drives the screw into the hole, but the screw remains loose and keeps rotating once it reaches the bottom, indicating that it hasn't secured. This could stem from an issue like an incorrect screw size, suggesting an abnormality in the object.",
+                "5.As observed in the video, the object is not functioning normally. The motor drives the screw into the hole, but the screw fails to secure itself and continues rotating at the base, implying it hasn't tightened. This could be due to reasons such as a size mismatch, pointing to an abnormal state of the object."
+            ],
+            "unable_goin": [
+                "1.The object in the video seems to be exhibiting signs of malfunction. Although the motor is trying to drive the screw into the hole, the screw remains stuck and cannot be fully inserted. This issue may be due to factors like an incorrect screw size, indicating an abnormal condition in the object.",
+                "2.In the video, the object appears to be functioning abnormally. The motor is attempting to insert the screw into the hole, but the screw is jammed and cannot go all the way in. This may be caused by a size mismatch, suggesting that the object is not operating correctly.",
+                "3.The video shows the object experiencing a malfunction. While the motor tries to drive the screw into place, the screw gets stuck and fails to fully engage. This could be due to factors such as an incompatible screw size, pointing to an abnormal state of the object.",
+                "4.According to the video, the object is not operating as it should. Although the motor drives the screw toward the hole, it becomes stuck partway and cannot be fully inserted. This may result from a screw size mismatch, suggesting a malfunction in the object.",
+                "5.As observed in the video, the object does not appear to be working correctly. The motor attempts to drive the screw into the hole, but the screw becomes lodged and won't go in completely. This may be due to factors like an incorrect screw size, indicating an issue with the object's condition."
+            ]
+        }
+    },
+    "servo": {
+        "description_label": {
+            "angle_limited": [
+                "1.The video shows a small blue servo motor with an attached white object. Once the motor is activated, the white object starts to spin while the motor swings in a controlled fashion, though its swing angle remains limited.",
+                "2.In the video, a small blue servo motor has a white object connected to it. As the motor turns on, the white object begins to rotate, and the motor swings in a steady manner, though the swing angle is restricted.",
+                "3.The video displays a small blue servo motor with a white object mounted on it. When the motor is switched on, the white object starts spinning, and the motor swings smoothly but within a limited angle.",
+                "4.This video features a small blue servo motor with an attached white object. Upon activation, the white object rotates, and the motor swings in a controlled motion, with its swing angle constrained.",
+                "5.The video illustrates a small blue servo motor connected to a white object. As the motor is engaged, the white object begins spinning, and the motor swings in a regular, controlled manner, limited by a fixed swing angle."
+            ],
+            "anomaly_free": [
+                "1.The video shows a small blue servo motor with an attached blue and white object. When the motor is turned on, the white object starts to rotate. There is also a close-up shot of the motor and white object as the motor swings smoothly.",
+                "2.In the video, a small blue servo motor is attached to a blue and white object. Once the motor is powered on, the white object begins spinning. The video provides a close-up look at the motor and the white object while the motor swings steadily.",
+                "3.This video highlights a small blue servo motor with a blue and white object mounted on it. As the motor activates, the white object starts to spin. A close-up of the motor and the white object shows the motor moving in a controlled, regular motion.",
+                "4.A small blue servo motor with an attached blue and white object is shown in the video. After the motor is switched on, the white object begins to rotate. The video also captures a close-up of both the motor and the white object as the motor swings smoothly.",
+                "5.The video displays a small blue servo motor, with a blue and white object connected to it. Once activated, the motor causes the white object to spin. The video further includes a close-up of the motor and the white object as it swings in a steady, regular motion."
+            ],
+            "centered_anomaly": [
+                "1.The video shows a small blue servo motor with a white object connected to it. Once the motor is activated, the white object starts to spin, and the motor swings in a steady motion. However, the white pointer shifts off-center during the swing.",
+                "2.In the video, a small blue servo motor with a white object attached begins swinging in a regular rhythm when turned on. As it swings, the white object spins, but the white pointer deviates from the center.",
+                "3.This video displays a small blue servo motor with an attached white object. When the motor is powered up, the white object starts rotating, and the motor moves in a steady swinging motion, although the white pointer shifts away from the center.",
+                "4.A small blue servo motor with a white object mounted on it is shown in the video. Upon activation, the white object begins to spin while the motor swings in a controlled manner, though the white pointer drifts off-center during the motion.",
+                "5.The video features a small blue servo motor with a white object attached. As the motor starts up, the white object spins, and the motor swings steadily, but the white pointer does not remain centered during the swing."
+            ],
+            "vibrate": [
+                "1.The video shows a small blue servo motor with an attached blue and white object. Once the motor is turned on, the white object, driven by the servo motor, starts to spin. However, the white pointer vibrates and is unable to swing in a smooth motion. A close-up shot of the motor and white object is also provided in the video.",
+                "2.In the video, a small blue servo motor with a blue and white object mounted on it is seen. When activated, the servo motor causes the white object to start spinning. Despite this, the white pointer vibrates and cannot achieve a smooth swing. The video includes a close-up view of both the motor and the white object.",
+                "3.The video depicts a small blue servo motor with a blue and white object attached. As the motor begins to run, it drives the white object into a spinning motion. However, the white pointer vibrates, preventing it from swinging smoothly. There is also a close-up view of the motor and the white object in the video.",
+                "4.A small blue servo motor with an attached blue and white object is featured in the video. When the motor is powered on, it makes the white object spin, but the white pointer vibrates and fails to swing smoothly. The video also includes a detailed close-up shot of both the motor and the white object.",
+                "5.This video displays a small blue servo motor to which a blue and white object is connected. Upon activation, the motor drives the white object to spin, yet the white pointer vibrates and cannot maintain a smooth swing. A close-up view of the motor and the white object is also shown in the video."
+            ]
+        },
+        "explanation_label": {
+            "angle_limited": [
+                "1.The servo in the video seems to be experiencing a malfunction. As the motor swings back and forth, it gets stuck at a particular angle, causing the swing angles to become inconsistent. This could be due to internal damage, suggesting that the servo is not operating as it should.",
+                "2.In the video, the servo shows signs of abnormal operation. The motor attempts to swing back and forth, but it gets stuck at a certain angle, leading to irregular swing angles. This issue could result from internal damage, indicating that the servo is not functioning properly.",
+                "3.The video indicates that the servo may have an issue. Although the motor moves back and forth, it becomes stuck at a specific angle, creating inconsistency in the swing angles. This abnormal behavior might be due to internal damage, suggesting the servo is malfunctioning.",
+                "4.According to the video, the servo does not appear to be working correctly. The motor swings in both directions, but it catches at a particular angle, making the swing angles uneven. This problem may stem from internal damage, signaling that the servo is not in proper condition.",
+                "5.As observed in the video, the servo appears to be defective. The motor swings back and forth but gets jammed at a certain angle, resulting in inconsistent movement. This could be caused by damage inside the servo, indicating an abnormal condition."
+            ],
+            "anomaly_free": [
+                "1.The servo in the video seems to be working correctly. The motor moves back and forth at a steady, consistent angle, which suggests that the servo is functioning as it should.",
+                "2.In the video, the servo demonstrates normal operation. The motor swings at a regular angle in both directions, confirming that the servo is performing as expected.",
+                "3.According to the video, the servo appears to be in good working condition. The motor moves back and forth at a uniform angle, indicating that the servo is functioning properly.",
+                "4.The video suggests that the servo is operating normally. The motor repeatedly swings to the same angle in each direction, signaling that the servo is performing as intended.",
+                "5.As shown in the video, the servo appears to be functioning as expected. The motor maintains a consistent back-and-forth swing at the same angle, confirming the servo's normal operation."
+            ],
+            "centered_anomaly": [
+                "1.The servo in the video seems to be malfunctioning. Although the motor moves back and forth, the initial swing position is not centered. This could be due to a lack of calibration in the starting position, indicating an issue with the servo's operation.",
+                "2.In the video, the servo shows signs of abnormality. The motor swings back and forth as intended, but the starting position is noticeably off-center, which could be caused by an uncalibrated initial position. This suggests that the servo is not working as it should.",
+                "3.The video indicates that the servo may have a problem. While the motor is swinging back and forth, the initial position appears misaligned, likely due to calibration issues. This misalignment suggests the servo is not operating correctly.",
+                "4.According to the video, the servo does not appear to be in normal condition. The motor swings back and forth, yet the starting position of each swing is off-center, possibly due to an uncalibrated position. This points to a malfunction in the servo.",
+                "5.As observed in the video, the servo appears to be malfunctioning. The motor performs a back-and-forth swing, but the starting point is misaligned from the center. This may be due to calibration issues, indicating that the servo is not functioning properly."
+            ],
+            "vibrate": [
+                "1.The servo in the video appears to be experiencing an issue. The motor vibrates noticeably at a particular position, which may point to internal damage. This suggests that the servo is not operating as it should.",
+                "2.In the video, the servo shows signs of malfunction. The motor vibrates at a fixed position, possibly due to damage inside the unit, indicating that the servo is not functioning properly.",
+                "3.The video suggests that the servo may be faulty. The motor is vibrating when it reaches a certain position, which could be a sign of internal damage, highlighting that the servo is not working correctly.",
+                "4.According to the video, the servo is not in proper working condition. The motor exhibits vibrations at a specific position, possibly from internal damage, which points to an abnormal condition in the servo.",
+                "5.As observed in the video, the servo seems to be malfunctioning. The motor vibrates at a particular position, potentially due to internal issues, indicating that the servo is not performing as expected."
+            ]
+        }
+    },
+    "slide": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm is shown holding a slide rail and moving it back and forth. The slide rail glides effortlessly with each motion, maintaining a smooth sliding action.",
+                "2.The video displays a robotic arm operating a slide rail, gripping it firmly as it moves back and forth. The slide rail maintains a smooth glide throughout each movement.",
+                "3.A slide rail and a robotic arm are featured in the video. As the robotic arm grips and moves the slide rail back and forth, the rail slides smoothly without any interruptions.",
+                "4.In the video, a robotic arm controls a slide rail, moving it repeatedly back and forth. The slide rail glides seamlessly with each pass, showing a consistent, smooth motion.",
+                "5.The video presents a robotic arm guiding a slide rail, which it moves back and forth. With each movement, the slide rail glides effortlessly, demonstrating smooth operation."
+            ],
+            "ball_drop": [
+                "1.In the video, a robotic arm moves a slide rail back and forth. When the slide rail reaches a specific position, a ball comes loose and falls off from its place.",
+                "2.The video displays a slide rail controlled by a robotic arm, sliding back and forth. As the slide rail moves to a certain point, a ball becomes detached and drops off.",
+                "3.A robotic arm and a slide rail are shown in the video. The arm guides the slide rail back and forth, but as it reaches a particular position, a ball separates and falls off the rail.",
+                "4.In the video, a robotic arm operates a slide rail, moving it in a back-and-forth motion. Upon reaching a specific spot, a ball disengages from the slide rail and falls.",
+                "5.The video features a robotic arm controlling a slide rail. As the slide rail slides to a certain position, a ball disconnects and falls away from the rail."
+            ],
+            "derailment": [
+                "1.In the video, a robotic arm controls a slide rail, moving it back and forth. However, when the slide rail reaches a specific position, it shifts out of alignment and derails.",
+                "2.The video shows a robotic arm maneuvering a slide rail, sliding it back and forth. As the slide rail approaches a certain point, it loses alignment and derails from its track.",
+                "3.A slide rail and a robotic arm are featured in the video. The robotic arm moves the slide rail back and forth, but upon reaching a specific position, the rail becomes misaligned and derails.",
+                "4.In the video, a robotic arm guides a slide rail in a back-and-forth motion. When the slide rail arrives at a certain spot, it slips out of alignment and derails from its track.",
+                "5.The video presents a robotic arm handling a slide rail, moving it repeatedly back and forth. At a particular position, the slide rail shifts out of alignment and derails from its path."
+            ],
+            "jam": [
+                "1.In the video, a robotic arm controls a slide rail, moving it back and forth. However, as the slide rail moves, it encounters resistance and becomes stuck at one point in its motion.",
+                "2.The video displays a slide rail operated by a robotic arm, moving back and forth under the arm's control. During this motion, the slide rail unexpectedly gets stuck and halts its movement.",
+                "3.A robotic arm and a slide rail are shown in the video. The arm moves the slide rail back and forth, but at some point in its path, the slide rail becomes stuck and cannot continue sliding smoothly.",
+                "4.In the video, a robotic arm is gripping a slide rail, moving it repeatedly back and forth. However, while in motion, the slide rail encounters an obstruction and becomes stuck.",
+                "5.The video presents a robotic arm maneuvering a slide rail in a back-and-forth motion. At a certain point in its travel, the slide rail catches and gets stuck, interrupting its movement."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The object in the video seems to be operating as expected. The slide moves back and forth effortlessly with the robotic arm, suggesting that the object is in good working order.",
+                "2.In the video, the object shows signs of normal operation. The slide moves smoothly in coordination with the robotic arm, indicating that the object is functioning properly.",
+                "3.The video suggests that the object is in proper condition. The slide glides back and forth seamlessly with the robotic arm, confirming that the object is working as it should.",
+                "4.According to the video, the object appears to be in good working order. The slide moves back and forth in sync with the robotic arm, maintaining smooth movement, which indicates the object's proper functionality.",
+                "5.As shown in the video, the object seems to be functioning normally. The slide smoothly follows the back-and-forth motion of the robotic arm, suggesting that the object is operating correctly."
+            ],
+            "ball_drop": [
+                "1.The object in the video is abnormal. As the robotic arm moves the slide rail back and forth, the ball on the slide rail detaches at a specific position. This could be due to internal structural damage, suggesting that the object is not operating properly.",
+                "2.In the video, the object shows signs of abnormality. While the robotic arm drives the slide rail back and forth, the ball unexpectedly falls off at a certain point, possibly indicating internal structural damage. This suggests that the object is not functioning as it should.",
+                "3.The video suggests that the object is not in proper working condition. The slide rail moves along with the robotic arm, but at a particular point, the ball on the rail detaches. This may be caused by internal structural issues, indicating that the object is malfunctioning.",
+                "4.According to the video, the object appears to have a fault. The robotic arm moves the slide rail back and forth, yet the ball falls off at a specific position, likely due to internal damage. This indicates that the object is not functioning correctly.",
+                "5.As shown in the video, the object seems to be defective. The slide rail follows the robotic arm's movement, but the ball detaches at a certain point, potentially because of internal structural failure. This highlights that the object is not in proper working order."
+            ],
+            "derailment": [
+                "1.The object in the video seems to be experiencing an issue. As the slide rail moves back and forth with the robotic arm, it comes off its track at a certain position. This could be caused by internal structural damage, suggesting that the object is not operating properly.",
+                "2.In the video, the object shows signs of abnormality. Although the slide rail moves in sync with the robotic arm, it derails at a specific point, possibly due to a broken internal structure. This indicates that the object is not functioning as intended.",
+                "3.The video suggests that the object is malfunctioning. As the robotic arm guides the slide rail back and forth, it derails at a certain location. This may result from internal structural issues, showing that the object is not in proper working order.",
+                "4.According to the video, the object appears to have a fault. While the slide rail follows the robotic arm's movement, it derails at a particular position, likely because of internal damage. This suggests that the object is not functioning correctly.",
+                "5.As observed in the video, the object does not seem to be in normal condition. The slide rail moves back and forth with the robotic arm but derails at a certain point, possibly due to a structural failure within. This indicates an abnormality in the object's operation."
+            ],
+            "jam": [
+                "1.The object in the video appears to be malfunctioning. As the slide rail moves back and forth along with the robotic arm, it gets stuck at a specific position, possibly due to internal structural damage. This indicates that the object is not functioning as it should.",
+                "2.In the video, the object seems to exhibit an abnormality. The slide rail follows the motion of the robotic arm but becomes stuck at a certain point, likely due to a broken internal structure, suggesting that the object is not working properly.",
+                "3.The video shows that the object may have a defect. Although the slide rail moves in coordination with the robotic arm, it gets jammed at a particular position. This issue could stem from internal damage, indicating a malfunction in the object.",
+                "4.According to the video, the object is not operating normally. The slide rail, while moving with the robotic arm, gets stuck at a specific location. This may be due to internal structural damage, showing that the object is not functioning correctly.",
+                "5.As observed in the video, the object appears to be experiencing a problem. The slide rail, which moves with the robotic arm, becomes lodged at a certain position, potentially due to a broken internal structure. This suggests that the object is malfunctioning."
+            ]
+        }
+    },
+    "spherical_bearing": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a motor powers a spherical bearing, causing it to rotate smoothly as intended.",
+                "2.The video features a spherical bearing, which is set in motion by a motor that drives its rotation.",
+                "3.A spherical bearing is shown in the video, rotating as it is driven by a motor.",
+                "4.The object in the video is a spherical bearing. The motor drives it, causing the bearing to rotate continuously.",
+                "5.The video presents a motor-driven spherical bearing, rotating steadily as a result of the motor's action."
+            ],
+            "jam": [
+                "1.In the video, a motor drives a spherical bearing. Although the bearing begins to rotate, it eventually becomes stuck and stops moving.",
+                "2.The video features a spherical bearing powered by a motor. While the bearing starts to rotate, it encounters resistance and gets stuck partway through its motion.",
+                "3.A spherical bearing driven by a motor is shown in the video. Although the motor initiates rotation, the bearing becomes stuck during the process.",
+                "4.In the video, a motor is powering a spherical bearing. As the bearing rotates, it unexpectedly becomes stuck and halts its movement.",
+                "5.The object in the video is a motor-driven spherical bearing. Despite the motor's drive, the bearing gets stuck while attempting to rotate."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The spherical bearing in the video appears to be in good working order. The motor drives the bearing to rotate smoothly, as expected, confirming that the spherical bearing is functioning properly and without issues.",
+                "2.In the video, the spherical bearing shows no signs of malfunction. The motor is driving it to rotate as anticipated, suggesting that the bearing is performing correctly and operating in a normal manner.",
+                "3.According to the video, the spherical bearing seems to be working as intended. The motor powers the bearing's rotation smoothly, which indicates that the spherical bearing is in stable and correct operation.",
+                "4.The video illustrates that the spherical bearing is performing as it should. The motor drives its rotation effectively, with no irregularities observed, confirming that the bearing is functioning normally.",
+                "5.As seen in the video, the spherical bearing appears to be in proper working condition. The motor drives it to rotate as expected, providing a clear indication that the bearing is operating as it should."
+            ],
+            "jam": [
+                "1.The spherical bearing shown in the video seems to be experiencing an issue. Although the motor is driving it to rotate, the bearing itself remains stuck, suggesting that it is in an abnormal condition.",
+                "2.In the video, the spherical bearing appears to have a problem. While the motor attempts to rotate it, the bearing remains stationary, likely due to being stuck, which indicates an abnormal operating state.",
+                "3.The spherical bearing depicted in the video is exhibiting signs of malfunction. Despite the motor driving it to rotate, the bearing is stuck, pointing to an abnormality in its functioning.",
+                "4.According to the video, the spherical bearing does not seem to be operating correctly. Although the motor drives it, the bearing remains immobilized, suggesting an abnormal condition.",
+                "5.As observed in the video, the spherical bearing appears to be in an abnormal state. While the motor drives it to rotate, the bearing is stuck, which clearly indicates that it is not functioning as it should."
+            ]
+        }
+    },
+    "sticky_roller": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm interacts with a sticky roller, gripping it firmly and moving it back and forth. This motion causes the roller to rotate with each movement of the robotic arm.",
+                "2.The video displays a sticky roller held by a robotic arm. As the robotic arm pulls the roller back and forth, the roller rotates smoothly in response to the arm's motion.",
+                "3.A sticky roller and a robotic arm are shown in the video. The robotic arm holds onto the roller and moves it in a back-and-forth motion, which makes the roller rotate with each pass.",
+                "4.In the video, a robotic arm grasps a sticky roller, moving it in a repetitive back-and-forth action. This movement allows the roller to rotate continuously as it follows the arm's path.",
+                "5.The video presents a scene with a sticky roller and a robotic arm. The robotic arm pulls the roller back and forth, causing the roller to spin as it moves back and forth in sync with the arm."
+            ],
+            "falloff": [
+                "1.In the video, a robotic arm is shown interacting with a sticky roller. The arm grips the sticky roller and moves it back and forth, but during the motion, the roller detaches and falls off.",
+                "2.The video displays a sticky roller held by a robotic arm, which moves it in a back-and-forth motion. As the robotic arm continues this movement, the roller unexpectedly comes loose and falls off.",
+                "3.A robotic arm and a sticky roller are featured in the video. The robotic arm holds the sticky roller, moving it repeatedly back and forth, until the roller detaches and drops off.",
+                "4.In the video, a sticky roller is held by a robotic arm that pulls it back and forth. However, as the arm continues to move, the roller eventually becomes detached and falls off.",
+                "5.The video presents a scene with a robotic arm and a sticky roller. The robotic arm grips and moves the roller back and forth, but during this motion, the roller separates from the handle and falls off."
+            ],
+            "stuck": [
+                "1.In the video, a robotic arm is shown interacting with a sticky roller. The arm grips the sticky roller and moves it back and forth, but as the movement continues, the roller becomes stuck and stops rotating altogether.",
+                "2.The video displays a robotic arm holding a sticky roller, which it moves in a back-and-forth motion. As this motion progresses, the sticky roller suddenly gets stuck and ceases to rotate.",
+                "3.A robotic arm and a sticky roller are featured in the video. The robotic arm pulls the sticky roller back and forth, but at some point, the roller catches and stops rolling entirely.",
+                "4.In the video, a robotic arm grasps a sticky roller and begins moving it back and forth. However, during the movement, the sticky roller unexpectedly becomes stuck and halts its rotation.",
+                "5.The video presents a scene with a robotic arm handling a sticky roller. As the arm moves the roller back and forth, the roller eventually jams and stops spinning."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The objects in the video seem to be operating as expected. The robotic arm moves the sticky roller back and forth, and the roller rotates smoothly in response, suggesting that the object is functioning properly.",
+                "2.In the video, the objects demonstrate normal functionality. The robotic arm maneuvers the sticky roller back and forth, causing the roller to rotate as it should, which indicates the object is in good working condition.",
+                "3.The video suggests that the objects are working correctly. The robotic arm guides the sticky roller in a back-and-forth motion, and the roller turns smoothly with each movement, confirming that the object is functioning as intended.",
+                "4.According to the video, the objects appear to be in proper condition. The robotic arm moves the sticky roller back and forth, and the roller spins seamlessly, which suggests the object is operating normally.",
+                "5.As observed in the video, the objects seem to be functioning without issues. The robotic arm moves the sticky roller back and forth, and the roller rotates smoothly, indicating the object is in optimal working order."
+            ],
+            "falloff": [
+                "1.The objects in the video seem to be experiencing a malfunction. As the robotic arm moves the sticky roller back and forth, the drum becomes detached. This could be due to internal damage, suggesting that the object is not operating correctly.",
+                "2.In the video, the objects show signs of malfunction. While the robotic arm manipulates the sticky roller, the roller's drum falls off, possibly due to internal damage. This indicates that the object is not functioning as it should.",
+                "3.The video suggests that the objects may have an issue. The robotic arm moves the sticky roller back and forth, but the drum comes loose, which could be a result of internal damage, signaling that the object is malfunctioning.",
+                "4.According to the video, the objects are not in proper working condition. While the robotic arm operates the sticky roller, the drum detaches unexpectedly, likely due to internal damage, indicating that the object is not functioning normally.",
+                "5.As observed in the video, the objects appear to be faulty. As the robotic arm moves the sticky roller, the drum falls off, possibly due to structural damage, showing that the object is not in proper condition."
+            ],
+            "stuck": [
+                "1.The objects in the video appear to be malfunctioning. While the robotic arm moves the sticky roller back and forth, the roller remains stuck and does not rotate. This could be caused by internal damage, suggesting that the object is not operating as expected.",
+                "2.In the video, the objects show signs of abnormality. Although the robotic arm moves the sticky roller, the roller itself remains stationary and fails to turn. This may be due to internal damage, indicating that the object is not functioning correctly.",
+                "3.The video suggests that the objects may have an issue. As the robotic arm moves the sticky roller back and forth, the roller stays in place without rolling, possibly due to internal damage, which implies a malfunction in the object.",
+                "4.According to the video, the objects do not appear to be operating normally. The robotic arm moves the sticky roller, yet the roller remains immobile, failing to rotate. This issue might be due to internal damage, showing that the object is not in proper working order.",
+                "5.As observed in the video, the objects seem to be defective. The robotic arm moves the sticky roller, but the roller stays motionless instead of rolling. This could result from internal damage, indicating that the object is not functioning as it should."
+            ]
+        }
+    },
+    "toothpaste": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm is shown interacting with a tube of toothpaste. The robotic arm alternates between pressing and kneading the toothpaste, which deforms noticeably with each action.",
+                "2.The video displays a robotic arm handling a tube of toothpaste. As the robotic arm presses and kneads it, the toothpaste deforms in response to each movement of the arm.",
+                "3.A robotic arm and a tube of toothpaste are featured in the video. The robotic arm applies pressure and kneads the toothpaste, causing it to change shape with every press and knead.",
+                "4.In the video, a robotic arm is seen working with a toothpaste tube, pressing and kneading it repeatedly. With each motion of the robotic arm, the toothpaste deforms accordingly.",
+                "5.The video presents a scene with a robotic arm and a tube of toothpaste. The robotic arm presses and kneads the toothpaste, which becomes deformed with each manipulation."
+            ],
+            "leak": [
+                "1.In the video, a robotic arm is shown interacting with a tube of toothpaste. The arm applies pressure, pressing and squeezing the toothpaste, which deforms and begins to leak out as the arm continues its motion.",
+                "2.The video displays a robotic arm handling a tube of toothpaste. As the robotic arm presses and squeezes the tube, the toothpaste deforms and gradually leaks out with each movement.",
+                "3.A tube of toothpaste and a robotic arm are featured in the video. The robotic arm applies force by pressing and squeezing the toothpaste, causing it to change shape and release some of its contents with every press.",
+                "4.In the video, a robotic arm is seen working with a toothpaste tube, pressing and squeezing it. Each motion causes the toothpaste to deform and a portion to leak out.",
+                "5.The video presents a robotic arm gripping a tube of toothpaste, pressing and squeezing it. As the robotic arm continues these actions, the toothpaste becomes deformed and begins to leak with each squeeze."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The objects in the video seem to be operating as intended. When the robotic arm presses or pinches the toothpaste, it deforms as expected, suggesting that the object is in good working order.",
+                "2.In the video, the objects demonstrate normal functionality. As the robotic arm presses or squeezes the toothpaste, it visibly deforms, indicating that the object is functioning properly.",
+                "3.The video suggests that the objects are in proper working condition. When the robotic arm applies pressure or pinches the toothpaste, the expected deformation occurs, confirming that the object is operating correctly.",
+                "4.According to the video, the objects appear to be in good condition. When the robotic arm presses or pinches the toothpaste, it compresses and deforms as anticipated, indicating the object is functioning normally.",
+                "5.As seen in the video, the objects seem to be functioning as they should. When the robotic arm squeezes or presses on the toothpaste, it deforms naturally, confirming that the object is in proper working condition."
+            ],
+            "leak": [
+                "1.The objects in the video appear to be faulty. When the robotic arm presses or pinches the toothpaste, it deforms, resulting in leakage, which indicates an abnormal condition.",
+                "2.In the video, the objects seem to exhibit an issue. When the robotic arm applies pressure to the toothpaste, it becomes deformed, leading to an unexpected leak, suggesting the object is malfunctioning.",
+                "3.The video suggests that the objects are not functioning properly. When the robotic arm pinches or presses the toothpaste, it deforms, causing the toothpaste to leak, indicating an abnormal state.",
+                "4.According to the video, the objects appear to be abnormal. As the robotic arm presses or squeezes the toothpaste, deformation occurs, resulting in leakage, which implies a malfunction in the object.",
+                "5.As seen in the video, the objects seem to be defective. When the robotic arm exerts pressure on the toothpaste, it deforms, and a leak occurs, suggesting the object is not operating correctly."
+            ]
+        }
+    },
+    "usb": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a USB drive is featured as the primary object. The USB cover, powered by a motor, swings back and forth with a smooth and consistent motion.",
+                "2.The video shows a USB drive, with a motor driving its cover. As the motor operates, the USB cover swings back and forth in a smooth, steady motion.",
+                "3.A USB drive is the object shown in the video. The cover, controlled by a motor, moves back and forth, swinging smoothly throughout the action.",
+                "4.In the video, a motor drives the cover of a USB drive, causing it to swing back and forth in a fluid motion without any interruptions.",
+                "5.The video presents a USB drive whose cover is powered by a motor. With each rotation, the motor enables the cover to swing back and forth smoothly."
+            ],
+            "jam": [
+                "1.In the video, a USB drive is shown. The motor powers the USB cover, causing it to start swinging; however, the cover gets stuck at a specific angle and does not complete its full range of motion.",
+                "2.The video features a USB drive, with a motor driving the movement of its cover. Although the cover begins to swing, it eventually becomes stuck at a particular angle and cannot continue moving.",
+                "3.A USB drive appears in the video, where a motor powers the swinging motion of its cover. However, during this movement, the cover becomes stuck at a certain angle and stops swinging freely.",
+                "4.In the video, a motor-driven USB drive is displayed. As the motor engages, the cover starts to swing, but it catches at a fixed angle and halts its movement.",
+                "5.The video presents a USB drive with a motor powering its cover to swing. Although it begins moving back and forth, the cover becomes lodged at a specific angle, unable to complete the swing."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The objects in the video seem to be operating as expected. When the motor is activated, the USB swings back and forth, and the lid moves freely without any restriction on angle, suggesting that the object is functioning correctly.",
+                "2.In the video, the objects demonstrate normal operation. Once the motor is engaged, the USB swings smoothly back and forth, and its lid has unrestricted movement, indicating that the object is in good working condition.",
+                "3.According to the video, the objects appear to be in proper working order. The motor drives the USB to swing back and forth, and the lid moves freely with no limitation on its angle, confirming that the object is functioning as intended.",
+                "4.The video suggests that the objects are functioning normally. With the motor activated, the USB moves back and forth, and the lid swings without any angle restriction, showing that the object is in proper condition.",
+                "5.As observed in the video, the objects appear to be in good condition. The motor causes the USB to swing back and forth, and the lid's movement is unrestricted, which indicates that the object is operating correctly."
+            ],
+            "jam": [
+                "1.The objects in the video appear to be malfunctioning. The motor drives the USB to swing back and forth, but the USB lid becomes stuck at a specific angle, which may indicate internal structural damage, suggesting that the object is not operating correctly.",
+                "2.In the video, the objects seem to exhibit an issue. The motor causes the USB to move back and forth, but the USB lid gets caught at a certain angle, likely due to internal structural damage, showing that the object is not functioning as it should.",
+                "3.The video suggests that the objects may be faulty. Although the motor drives the USB to swing back and forth, the USB lid becomes stuck at a particular angle, potentially due to internal damage, indicating that the object is not working properly.",
+                "4.According to the video, the objects do not appear to be functioning normally. The USB swings back and forth under the motor's power, but the lid stops moving at a fixed angle, possibly due to an internal structural issue, showing that the object is malfunctioning.",
+                "5.As observed in the video, the objects appear to be defective. While the motor moves the USB back and forth, the USB lid gets stuck at a certain angle, likely because of internal damage, which suggests that the object is not operating correctly."
+            ]
+        }
+    },
+    "zipper": {
+        "description_label": {
+            "anomaly_free": [
+                "1.In the video, a robotic arm is shown handling a zipper. The arm firmly grips the zipper head and moves it back and forth, allowing the zipper to open and close smoothly with each pull.",
+                "2.The video displays a zipper being operated by a robotic arm. The arm holds the zipper head securely, pulling it back and forth, which results in the zipper opening and closing seamlessly.",
+                "3.A zipper and a robotic arm are featured in the video. The robotic arm grabs the zipper head and moves it back and forth, smoothly opening and closing the zipper with each motion.",
+                "4.In the video, a robotic arm interacts with a zipper, gripping its head tightly and pulling it back and forth. This action allows the zipper to open and close effortlessly.",
+                "5.The video presents a zipper controlled by a robotic arm. The arm grasps the zipper head and moves it back and forth, enabling the zipper to open and close in a smooth, fluid motion."
+            ],
+            "stuck": [
+                "1.In the video, a robotic arm is shown handling a zipper. The arm grips the zipper head and attempts to pull it back and forth, but the zipper catches at a specific position and cannot open completely.",
+                "2.The video displays a zipper operated by a robotic arm. The robotic arm grabs the zipper head and moves it back and forth; however, the zipper gets stuck at a certain point, preventing it from fully opening.",
+                "3.A zipper and a robotic arm are featured in the video. The robotic arm secures the zipper head and pulls it back and forth, but the zipper is unable to open fully due to a blockage at a specific position.",
+                "4.In the video, a robotic arm interacts with a zipper, grasping the zipper head and moving it back and forth. Despite the effort, the zipper becomes stuck at a certain spot and does not fully open.",
+                "5.The video presents a robotic arm controlling a zipper. The arm pulls the zipper head back and forth, but the zipper stops at a particular point, unable to fully open."
+            ],
+            "unable_close": [
+                "1.In the video, a robotic arm is shown operating a zipper. The arm firmly grips the zipper head and moves it back and forth. Although the zipper head glides smoothly without any issues, the zipper remains unable to close fully.",
+                "2.The video displays a robotic arm handling a zipper, gripping the zipper head and moving it back and forth. While the zipper head moves fluidly without sticking, the zipper itself cannot be fully closed.",
+                "3.A robotic arm and a zipper are featured in the video. The robotic arm grasps the zipper head, moving it back and forth. Despite the zipper head's smooth motion, the zipper remains open and cannot close completely.",
+                "4.In the video, a robotic arm interacts with a zipper, holding onto the zipper head and sliding it back and forth. The zipper head moves easily without getting stuck, yet the zipper cannot be brought to a fully closed position.",
+                "5.The video presents a scene with a zipper and a robotic arm. The robotic arm holds the zipper head and shifts it back and forth. Although the zipper head functions smoothly, the zipper cannot be closed entirely."
+            ]
+        },
+        "explanation_label": {
+            "anomaly_free": [
+                "1.The objects in the video seem to be in good working order. The robotic arm moves the zipper back and forth, allowing it to open and close smoothly, which suggests that the zipper is functioning properly.",
+                "2.In the video, the objects demonstrate normal functionality. The robotic arm guides the zipper back and forth, and it opens and closes effortlessly, confirming that the zipper is in proper working condition.",
+                "3.The video indicates that the objects are operating as expected. As the robotic arm moves the zipper back and forth, it slides smoothly and opens without issue, showing that it is in good condition.",
+                "4.According to the video, the objects appear to be functioning well. The robotic arm operates the zipper back and forth, and the zipper opens and closes seamlessly, suggesting it is in proper condition.",
+                "5.As seen in the video, the objects seem to be working correctly. The robotic arm guides the zipper back and forth, and the zipper glides open and shut without resistance, indicating that it is in good working order."
+            ],
+            "stuck": [
+                "1.The objects in the video seem to be malfunctioning. While the robotic arm operates the zipper back and forth, the zipper becomes stuck at a specific point, likely due to damage. This suggests that the zipper is not functioning as it should.",
+                "2.In the video, the objects show signs of abnormality. Although the robotic arm attempts to move the zipper back and forth, it gets stuck at a certain position, possibly from internal damage. This indicates that the zipper is not operating correctly.",
+                "3.The video suggests that the objects may be faulty. The robotic arm moves the zipper, but it catches at a particular point, likely because of damage, implying that the zipper is not functioning properly.",
+                "4.According to the video, the objects are not in proper working condition. The robotic arm moves the zipper back and forth, yet it jams at a certain spot, possibly due to a defect, suggesting that the zipper is not operating normally.",
+                "5.As observed in the video, the objects appear to have a problem. The robotic arm maneuvers the zipper, but it gets stuck at a specific position, potentially due to damage, indicating that the zipper is not in good working order."
+            ],
+            "unable_close": [
+                "1.The objects in the video appear to be malfunctioning. While the robotic arm moves back and forth, causing the zipper to slide as expected, the zipper fails to close properly, potentially due to damage. This suggests that the zipper is not functioning as it should.",
+                "2.In the video, the objects show signs of abnormality. Although the robotic arm moves the zipper back and forth without issue, the zipper does not fully close, possibly because of internal damage. This indicates that the zipper is not operating correctly.",
+                "3.The video suggests that the objects may have a defect. The robotic arm maneuvers the zipper back and forth, enabling smooth movement, but the zipper fails to close completely, which may be due to damage. This implies that the zipper is not working properly.",
+                "4.According to the video, the objects do not appear to be in proper condition. The robotic arm slides the zipper back and forth, allowing it to move freely, yet the zipper cannot close as it should, possibly from damage. This indicates an issue with the zipper's functionality.",
+                "5.As observed in the video, the objects seem to be faulty. The robotic arm moves the zipper back and forth smoothly, but the zipper remains open and cannot fully close, likely due to damage, which suggests that the zipper is not functioning as expected."
+            ]
+        }
+    }
+}
