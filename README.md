@@ -34,10 +34,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Preparation](#Preparation)
+- [Preparation](#preparation)
 - [Installation](#installation)
 - [How to run](#how-to-run)
 - [Links to methods](#links-to-methods)
+- [PAEval](#paeval)
 - [Citation](#citation)
 - [License](#license)
 
@@ -93,6 +94,7 @@ For most of the methods there are related option files to set the parameters und
 cd scripts
 sh script_of_method_you_want_to_run.sh
 ```
+### Unsurpervised methods
 **For example**, if you want to train and test **MemAE** method:  
 1. Switch to the ```scripts``` folder.  
 ```bash
@@ -107,13 +109,43 @@ sh memae_trainer.sh
 ```bash
 sh memae_tester.sh
 ```
+### Weakly-surpervised methods
+**For example**, if you want to train and test **VadCLIP** method:  
+
+0. Randomly put some abnormal samples into the training set (10% of the total abnormal samples in our experiments). 
+1. Switch to the ```scripts``` folder.  
+```bash
+cd scripts
+```
+2. Find the scripts of the method you want to run. You may want to modify the flag ```--obj``` in the script to specify the object you want to train or test.  
+3. For training:
+```bash
+sh vadclip_trainer.sh
+```
+4. For testing:
+```bash
+sh vadclip_tester.sh
+```
+### Video-understanding methods
+**For example**, if you want to train and test **VideoLLaVA** method:  
+1. Switch to the ```scripts``` folder.  
+```bash
+cd scripts
+```
+2. Find the scripts of the method you want to run. You may want to modify the flag ```--obj``` in the script to specify the object you want to test. **Check the cuda device setting**.
+3. For testing:
+```bash
+sh videollava_tester.sh
+```
 **Note**: 
 1. In this project we use '_' to connect the name of an object, e.g.: 'rolling_bearing' for 'rolling bearing'.
 2. Video understanding methods have only tester and no need to train. 
 3. All the results will be saved to ```results``` file and the trained models to ```checkpoints``` file.
 
+## PAEval
+Please refer to [here](PAEval/Readme.md) to check more instructions on PAEval experiments.
 
-# Links to methods
+## Links to methods
 [MemAE](https://github.com/donggong1/memae-anomaly-detection)\
 [MNAD](https://github.com/cvlab-yonsei/MNAD)\
 [MPN](https://github.com/ktr-hubrt/MPN)\
