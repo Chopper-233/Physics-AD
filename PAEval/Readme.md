@@ -2,7 +2,7 @@
 **Before all the experiments about PAEval, you should check if you have the access to ChatGPT-4o api.**
 
 ## Step 1 ##
-After you get the answers from VLMs, you should make a **descriptions** and a **explanations** json files for every method, and put them into ```PAEval/results_from_VLM/``` (Except LAVAD in our experiment, because it only gives descrioptions.)
+After you get the answers from VLMs, you should make a **descriptions** and an **explanations** json files for every method, and put them into ```PAEval/results_from_VLM/``` (Except LAVAD in our experiment, because it only gives descrioptions.)
 
 They should look like below:
 ```bash
