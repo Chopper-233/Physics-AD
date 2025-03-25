@@ -26,7 +26,7 @@
         <sup>3</sup>Monash University
     </span>
 
-[Website]() | [Arxiv]() | [Data]()
+[Website](https://guyao2023.github.io/Phys-AD/) | [Arxiv](https://arxiv.org/abs/2503.03562) | [Data](https://huggingface.co/datasets/guoliz/Phys-AD)
 </div>
 </div>
 
