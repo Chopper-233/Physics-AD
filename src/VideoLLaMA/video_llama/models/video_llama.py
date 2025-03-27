@@ -30,7 +30,7 @@ class VideoLLAMA(Blip2Base):
 
     @classmethod
     def init_video_Qformer(cls, num_query_token, vision_width,num_hidden_layers =2):
-        encoder_config = BertConfig.from_pretrained("/home/lc/Desktop/wza/cxt/bert-base-uncased")
+        encoder_config = BertConfig.from_pretrained("pretrained-weights/bert-base-uncased")
         #encoder_config = BertConfig.from_pretrained("bert-base-uncased")
         encoder_config.num_hidden_layers = num_hidden_layers
         encoder_config.encoder_width = vision_width
@@ -48,7 +48,7 @@ class VideoLLAMA(Blip2Base):
     def __init__(
         self,
         vit_model="eva_clip_g",
-        q_former_model="/home/lc/Desktop/wza/cxt/Video-LLaMA-main/blip2_pretrained_flant5xxl.pth",#改过
+        q_former_model="pretrained-weights/blip2_pretrained_flant5xxl.pth",#改过
         img_size=224,
         drop_path_rate=0,
         use_grad_checkpoint=False,
@@ -56,7 +56,7 @@ class VideoLLAMA(Blip2Base):
         freeze_vit=True,
         freeze_qformer=True,
         num_query_token=32,
-        llama_model="/home/lc/Desktop/wza/cxt/llama-2-7b-chat-hf",
+        llama_model="pretrained-weights/llama-2-7b-chat-hf",
         #llama_model="",
         prompt_path="",
         prompt_template="",
@@ -75,7 +75,7 @@ class VideoLLAMA(Blip2Base):
         fusion_head_layers = 2,
         num_video_query_token = 32,
         num_audio_query_token = 8,
-        imagebind_ckpt_path = "/home/lc/Desktop/wza/cxt/imagebind_huge.pth",
+        imagebind_ckpt_path = "pretrained-weights/imagebind_huge.pth",
         #imagebind_ckpt_path = '/mnt/workspace/ckpt',
         equip_audio_branch = True
     ):
@@ -122,7 +122,7 @@ class VideoLLAMA(Blip2Base):
         logging.info('Loading Q-Former Done')
 
         logging.info('Loading LLAMA Tokenizer')
-        self.llama_tokenizer = LlamaTokenizer.from_pretrained("/home/lc/Desktop/wza/cxt/llama-2-7b-chat-hf", use_fast=False)
+        self.llama_tokenizer = LlamaTokenizer.from_pretrained("pretrained-weights/llama-2-7b-chat-hf", use_fast=False)
         #self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model, use_fast=False)
         if self.llama_tokenizer.pad_token is None:
             self.llama_tokenizer.pad_token = self.llama_tokenizer.unk_token 
@@ -138,7 +138,7 @@ class VideoLLAMA(Blip2Base):
         print('i am here')
         if self.low_resource:
             self.llama_model = LlamaForCausalLM.from_pretrained(
-                llama_model="/home/lc/Desktop/wza/cxt/llama-2-7b-chat-hf",
+                llama_model="pretrained-weights/llama-2-7b-chat-hf",
                 #llama_model,
                 torch_dtype=torch.bfloat16,
                 load_in_8bit=True,
@@ -146,7 +146,7 @@ class VideoLLAMA(Blip2Base):
             )
         else:
             self.llama_model = LlamaForCausalLM.from_pretrained(
-                "/home/lc/Desktop/wza/cxt/llama-2-7b-chat-hf",
+                "pretrained-weights/llama-2-7b-chat-hf",
                 #llama_model,
                 torch_dtype=torch.bfloat16,
             )
