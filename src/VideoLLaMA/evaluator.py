@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, roc_auc_score, average_precision_sco
 from options.VideoLLaMA.option import Options
 
 
-parser = Options()
+parser = Options().initialize()
 
 args = parser.parse_args()
 
