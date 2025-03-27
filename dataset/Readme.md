@@ -80,11 +80,14 @@ The pre-trained models can be download from [here](https://pan.baidu.com/s/1Oo_S
 Phys-AD/
 │
 ├── pretrained-weights/
+│   ├── bert-base-uncased/
 │   ├── huggingface/
 │   ├── llama_vabranch/
+│   ├── llama-2-7b-chat/
 │   ├── llama-2-13b-chat/
 │   ├── Video-LLaVA-7B-hf/
 │   ├── bpe_simple_vocab_16e6.txt.gz
+│   ├── blip2_pretrained_flant5xxl
 │   ├── imagebind_huge.pth
 │   └── tokenizer.model
 ```
