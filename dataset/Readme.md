@@ -75,7 +75,7 @@ S3R_data/
 
 ### Download Pretrained-weights
 
-The pre-trained models can be download from [here](https://pan.baidu.com/s/1Oo_SWM0H7AV4Ep7SLKBHPg) (code=6p2s) and should be organized as follows:
+The pre-trained models can be download from [here](https://pan.baidu.com/s/1Oo_SWM0H7AV4Ep7SLKBHPg) (code=6p2s) (updating now) and should be organized as follows:
 ```
 Phys-AD/
 │
