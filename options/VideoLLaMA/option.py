@@ -18,4 +18,4 @@ class Options():
             "in xxx=yyy format will be merged into config file (deprecate), "
             "change to --cfg-options instead.",
         )
-    return parser
+        return parser
