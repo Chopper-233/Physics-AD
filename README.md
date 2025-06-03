@@ -39,6 +39,7 @@
 - [How to run](#how-to-run)
 - [Links to methods](#links-to-methods)
 - [PAEval](#paeval)
+- [Contact](#Contact)
 - [Citation](#citation)
 - [License](#license)
 
@@ -159,8 +160,8 @@ Please refer to [here](PAEval/Readme.md) to check more instructions on PAEval ex
 [VideoLLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)\
 [LAVAD](https://github.com/lucazanella/lavad)
 # Contact
-Question about Data: @chenxt12024@shanghaitech.edu.cn
-Question about Code: @guyao2023@shanghaitech.edu.cn
+Question about Data: chenxt12024@shanghaitech.edu.cn
+Question about Code: guyao2023@shanghaitech.edu.cn
 
 # Citation
 Please cite the following paper if this work helps your project:
