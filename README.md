@@ -158,7 +158,9 @@ Please refer to [here](PAEval/Readme.md) to check more instructions on PAEval ex
 [VideoLLaMA](https://github.com/DAMO-NLP-SG/VideoLLaMA2)\
 [VideoLLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA)\
 [LAVAD](https://github.com/lucazanella/lavad)
-
+# Contact
+Question about Data: @chenxt12024@shanghaitech.edu.cn
+Question about Code: @guyao2023@shanghaitech.edu.cn
 
 # Citation
 Please cite the following paper if this work helps your project:
